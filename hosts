@@ -1,0 +1,5 @@
+[example1]
+169.169.169.169
+
+[nxos]
+sbx-nxos-mgmt.cisco.com ansible_ssh_user=admin ansible_ssh_pass=Admin_1234! ansible_tmp_dir=~/.ansible/tmp

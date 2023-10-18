@@ -1,0 +1,7 @@
+---
+
+nexus:
+  url: sbx-nxos-mgmt.cisco.com
+  username: admin
+  passwoord: Admin_1234!
+  
