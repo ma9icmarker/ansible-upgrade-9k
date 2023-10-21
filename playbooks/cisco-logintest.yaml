@@ -11,7 +11,7 @@
 #=============================================
 
 - hosts: nxos
-  gather_facts: true
+  gather_facts: false
   connection: network_cli
   vars:
     ansible_ssh_user: admin
@@ -24,15 +24,62 @@
       include_vars:
         file: ../group_vars/.cisco.yaml
 
-    - name: Show version
-      cisco.nxos.nxos_command:
-        commands: show version
-        wait_for: result[0] contains Cisco
-      register: showversion
+    # - name: Show version
+    #   cisco.nxos.nxos_command:
+    #     commands: show version
+    #     wait_for: result[0] contains Cisco
+    #   register: showversion
 
-    - name: debug show version
+    # - name: debug show version
+    #   debug: 
+    #     var: showversion
+
+    - name: Get current NXOS version in JSON format
+      tags: pre-check, check-version, post-check, install
+      nxos_command:
+        commands: show version | json-pretty
+      register: show_version
+    
+    - name: Get current NXOS version in JSON format
+      tags: pre-check, check-version, post-check, install
+      nxos_command:
+        commands: "{{ item }}"
+      register: show_output
+      with_items:
+                - show vlan
+                - show ip int br
+                - show interface description
+                - show int status
+    
+    - name: debug show_output
       debug: 
-        var: showversion
+        var: show_output
+
+
+    - name: debug pretty debug
+      debug: 
+        var: show_version
+
+    - name: Backup the config for {{ inventory_hostname }}
+      cisco.nxos.nxos_config:
+        backup: yes
+        backup_options:
+          filename: "{{ inventory_hostname }}_backup.cfg"
+          dir_path: ./backup
+      register: config_output
+
+
+    - name: initiate file copy from device
+      cisco.nxos.nxos_file_copy:
+        file_pull: true
+        file_pull_protocol: ftp
+        local_file: xyz
+        remote_file: /mydir/abc
+        remote_scp_server: 192.168.0.1
+        remote_scp_server_user: myUser
+        remote_scp_server_password: myPassword
+        vrf: management
+
 
   # - name: Backup the config for {{ inventory_hostname }}
   #   tags: backup, install
