@@ -3,3 +3,16 @@
 
 [nxos]
 sbx-nxos-mgmt.cisco.com ansible_ssh_user=admin ansible_ssh_pass=Admin_1234! ansible_tmp_dir=~/.ansible/tmp
+
+
+
+[proxy]
+bastion.example.com
+
+[nodes]
+private-server-1.example.com
+private-server-2.example.com
+private-server-3.example.com
+
+[nodes:vars]
+ansible_ssh_common_args='-o ProxyCommand="ssh -p 2222 -W %h:%p -q username@bastion.example.com"'
