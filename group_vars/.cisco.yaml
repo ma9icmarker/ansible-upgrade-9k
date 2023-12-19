@@ -4,3 +4,10 @@ nexus:
   url: sbx-nxos-mgmt.cisco.com
   username: admin
   passwoord: Admin_1234!
+
+ftd:
+  username: admin
+  password: C!sco12435
+  ipaddress: 
+    - 172.18.129.89
+

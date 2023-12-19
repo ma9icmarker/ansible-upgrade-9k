@@ -1,0 +1,84 @@
+---
+
+- hosts: Boston_Test
+  gather_facts: false
+  become: true
+  connection: network_cli
+
+
+
+  tasks:
+    - name: include vars
+      include_vars:
+        file: ../group_vars/.cisco.yaml
+
+    - name: Test modules
+      ftd_send_command:
+        username: "{{ ftd.username }}"
+        ip_address: "172.18.129.89"
+        password: "{{ ftd.password }}"
+        commands:
+          - show arp
+        expected_strings:
+          - "outside150"
+      register: show_arp
+#      failed_when: "'Could not resolve hostname' in ssh_output.msg or 'permission denied' in ssh_output.msg"
+
+    - name: Debug command outputs
+      debug:
+        var: show_arp
+    
+    - name: Convert output to JSON-like format raw
+      set_fact:
+        json_like_output: "{{ show_arp | regex_replace('\t', ' ') }}"
+      when: show_arp is defined and show_arp | length > 0 
+
+    - name: debug json_like_output
+      debug:
+        var: json_like_output    
+
+    - name: Convert JSON-like format to list of lines and store ARP data separately
+      set_fact:
+        gather_ftd_info: []
+
+    - set_fact:
+        gather_ftd_info: >-
+          {{
+            gather_ftd_info | combine({
+              item.split()[2]: {
+                'interface_name': item.split()[3:] | join(' ') | default(''),
+                'ip_address': item.split()[1] | default('')
+              }
+            })
+          }}
+      loop: "{{ json_like_output.msg[0].split('\n') }}"
+      when: item != 'show arp' and item.split() | length >= 4
+
+    - debug:
+        var: gather_ftd_info 
+
+
+
+   
+
+
+
+    - meta: end_play
+
+
+    - name: Extract ARP entries
+      set_fact:
+        arp_entries: "{{ gather_ftd_info.msg[0] | regex_findall('\\S+ \\S+ (\\S+) (\\S+)') }}"
+
+    - name: Create JSON dictionary
+      set_fact:
+        json_output: >-
+          {{
+            arp_entries
+            | map('list')
+            | items2dict(key_name='0', value_name={'interface_name': '1', 'ip_address': '2'})
+            | to_json
+          }}
+
+    - debug:
+        var: json_output

@@ -1,0 +1,91 @@
+---
+
+- hosts: Boston_Test
+  gather_facts: false
+  connection: cli
+
+  tasks:
+    - name: Run pexpect ssh connection to FTD
+      shell: |
+        python3 /runner/project/ftd-list-install-files.py
+      register: script_output
+      delegate_to: Boston_Test
+
+    - name: debug rawoutput
+      debug:
+        var: script_output.stdout
+
+    - name: Convert output to JSON-like format raw
+      set_fact:
+        json_like_output: "{{ script_output.stdout | regex_replace('\t', ' ') }}"
+      when: script_output.stdout is defined and script_output.stdout | length > 0 
+
+
+
+    - name: Convert JSON-like format to list of lines
+      set_fact:
+        gather_ftd_info: "{{ json_like_output | default ('') | regex_replace('^show arp ', '') | split('\n') }}"
+      when: json_like_output is defined and json_like_output | length > 0
+
+    - name: Debug Gather Info Type 
+      debug: 
+        var: gather_ftd_info | type_debug
+
+    - name: Debug Gather Info Type 
+      debug: 
+        var: gather_ftd_info 
+    
+    - meta: end_play
+
+    - name: Process data into dictionaries based on MAC addresses
+      set_fact: 
+        mac_address_dict: "{{ mac_address_dict | default ({}) }}"
+      when: gather_ftd_info is mapping
+
+    - name: Process mac_address_dict
+      set_fact: 
+        mac_address_dict: "{{ mac_address_dict | default ({}) | combine({ item[2]: {'interface_name': item[0], 'IP Address': item[1], 'VLAN_Number': item[3] }} ) }}"
+      with_indexed_items: "{{ gather_ftd_info }}"
+      # when: item  | length >= 4
+      when: gather_ftd_info is defined and item | length > 4
+      #when: gather_ftd_info is defined and gather_ftd_info | length > 0 and item | length > 3 and item[1] is match('^\\d+\\.\\d+\\.\\d+\\.\\d+$') and item[2] is match('^[\\da-fA-F]{4}\\.[\\da-fA-F]{4}\\.[\\da-fA-F]{4}$') and item[3] is match('^\\d+$')"
+
+
+    - name: Capture skipped items
+      set_fact:
+        skipped_items: "{{ skipped_items | default([]) + [item] }}"
+      loop: "{{ gather_ftd_info }}"
+      when: item.0 is not match('^skipping:') | default(true)
+
+    - name: Write skipped items to a file
+      copy:
+        content: "{{ skipped_items | to_nice_yaml }}"
+        dest: /runner/project/skipped_items.yaml
+      when: skipped_items | length > 0
+
+    - name: view local files 
+      command: cat /runner/project/skipped_items.yaml
+      register: catlocalfile
+
+    - name: debug local file
+      debug:
+        var: catlocalfile
+
+
+    - meta: end_play
+
+  #  - name: Read Yaml
+  #    set_fact: 
+  #      gather_ftd_info: "{{ lookup('file', '/runner/project/output.yaml') | from_yaml }}"
+
+  #  - name: debug YAML file
+  #    debug:
+  #      var: gather_ftd_info
+
+    - name: view local files 
+      command: cat /runner/project/ftd-list-install-files.py
+      register: catlocalfile
+
+    - name: debug local file
+      debug:
+        var: catlocalfile

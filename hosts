@@ -16,3 +16,9 @@ private-server-3.example.com
 
 [nodes:vars]
 ansible_ssh_common_args='-o ProxyCommand="ssh -p 2222 -W %h:%p -q username@bastion.example.com"'
+
+[Boston_Test]
+172.18.129.89
+[Boston_Test:vars]
+ansible_network_os = ios
+ansible_connection: ssh
