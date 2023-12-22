@@ -1,0 +1,221 @@
+---
+
+- hosts: Boston_Test
+  gather_facts: false
+  become: true
+  connection: network_cli
+
+  tasks:
+    - name: include vars
+      include_vars:
+        file: ../group_vars/.cisco.yaml
+
+    - name: Test modules
+      ftd_send_command:
+        username: "{{ ftd.username }}"
+        ip_address: "172.18.129.89"
+        password: "{{ ftd.password }}"
+        commands:
+          - show ip
+        expected_strings:
+          - "outside150"
+      register: show_ip
+
+    - name: Debug show ip
+      debug:
+        var: show_ip
+
+    - name: Filter lines starting with Port-channel
+      set_fact:
+        filtered_lines: >-
+          {% set lines = show_ip.msg[0] | split('\n') %}
+          {{ lines | select('match', '^Port-channel.*') | list }}
+
+    - name : debug filtered lines
+      debug:
+        var: filtered_lines
+
+    - name: set fact for filtered lines list
+      set_fact:
+        filtered_lines_list: {}
+
+    - name: Split filtered_lines into a list
+      set_fact:
+        filtered_lines_list: "{{ filtered_lines | regex_replace('\\\\n|\\\\r|\\[|\\]', '') | regex_replace(\"'\", '') | regex_replace(' manual', '') | regex_replace('Port-channel20', '\\nPort-channel20') | regex_replace(' +', ' ') | regex_replace('^\\s+|\\s+$', '') | split('\\n') }}"
+
+    - name : debug filtered lines list
+      debug:
+        var: filtered_lines_list
+
+    - name: Initialize vlan_data variable
+      set_fact:
+        vlan_data: {}
+
+    - name: Extract VLAN IDs without any VLAN filter
+      set_fact:
+        vlan_ids: "{{ filtered_lines | regex_findall('Port-channel20\\.([0-9]+)') }}"
+
+    - name: debug vlan_ids
+      debug:
+        var: vlan_ids
+
+    - name: Define desired VLANs
+      set_fact:
+        desired_vlans:
+          - 1420
+          - 1411
+
+    - name: Extract VLAN IDs
+      set_fact:
+        vlan_ids: "{{ desired_vlans | list }}"
+
+    - name: debug desired VLANs
+      debug: 
+        var: desired_vlans 
+
+
+    - name: set fact desired dict
+      set_fact:
+        desired_dicts: {}
+
+    # - name: set fact modified_lines_list dict
+    #   set_fact:
+    #     modified_lines_list: {}
+
+
+
+    - name: Modify filtered_lines_list to separate individual interface details
+      set_fact:
+        modified_lines_list: "{{ modified_lines_list | default([]) + [item] }}"
+      loop: "{{ filtered_lines_list }}"
+
+
+
+    - name: debug modified_lines_list
+      debug:
+        var: modified_lines_list
+
+    - name: Initialize VLAN dictionary
+      set_fact:
+        vlan_data: {}
+
+    - name: Extract VLAN data
+      set_fact:
+        vlan_info_list: "{{ modified_lines_list | map('regex_findall', 'Port-channel20\\.([0-9]+)\\s+([^\\s]+)\\s+([^\\s]+)\\s+([^\\s]+)') | list }}"
+    
+    - name: Create VLAN dictionaries for each VLAN
+      set_fact:
+        vlan_id: "{{ item[0] }}"
+        interface_name: "{{ item[1] }}"
+        ip_address: "{{ item[2] }}"
+        subnet_mask: "{{ item[3] | regex_replace(',$', '') }}"
+      loop: "{{ vlan_info_list }}"
+      loop_control:
+        loop_var: item
+      register: fullvlandict
+
+    - name: Store item.ansible_facts in a list variable
+      set_fact:
+        vlan_data_list: "{{ vlan_data_list | default([]) + [item.ansible_facts] }}"
+      loop: "{{ fullvlandict.results }}"
+      loop_control:
+        loop_var: item
+
+    - name: debug vlan_data_item
+      debug:
+        var: vlan_data_list
+
+    - name: Rename VLAN dictionaries within the list
+      set_fact:
+        vlan_data_list_renamed: "{{ vlan_data_list_renamed | default([]) + [item | combine({'vlan_id': item['vlan_id'][0]})] }}"
+      loop: "{{ vlan_data_list }}"
+      loop_control:
+        loop_var: item
+
+    - name: debug vlan_data_list_renamed
+      debug:
+        var: vlan_data_list_renamed
+
+    - meta: end_play 
+
+    - name: debug fullvlandict
+      debug:
+        var: item.item
+      loop: "{{ fullvlandict.results }}"
+      loop_control:
+        loop_var: item
+
+    - name: Display the generated VLAN dictionaries for VLAN 1411
+      debug:
+        var: fullvlandict
+      when: vlan_id == desired_vlan[0]
+
+    # - name: Add VLAN dictionary to vlan_data
+    #   set_fact:
+    #     vlan_data: "{{ vlan_data | combine({vlan_id: {'vlanid': vlan_id, 'interface_name': interface_name, 'ipaddress': ip_address, 'subnetmask': subnet_mask}}) }}"
+    #   loop: "{{ vlan_info_list }}"
+    #   loop_control:
+    #     loop_var: item
+    
+    
+    - name: Display the generated VLAN dictionaries
+      debug:
+        var: vlan_data
+
+    - name: debug vlan_dicts
+      debug:
+        var: vlan_dicts
+
+
+
+    - name: Filter lines for desired VLANs
+      set_fact:
+        filtered_vlans: "{{ modified_lines_list | select('match', regex_search) | list }}"
+      vars:
+        regex_search: "{{ 'Port-channel20\\.(' ~ desired_vlans | join('|') ~ ')' }}"
+
+
+
+    - name: debug filtered_vlans
+      debug:
+        var: filtered_vlans
+
+    - name: Create dictionaries for desired VLANs
+      set_fact:
+        desired_dicts: >-
+          {{
+            desired_dicts | default({})
+            | combine({
+                'vlan_' ~ item.split()[0].split('.')[1]: {
+                  'vlanid': item.split()[0].split('.')[1],
+                  'ipaddress': item.split()[2],
+                  'subnetmask': item.split()[3]
+                }
+              })
+          }}
+      loop: "{{ filtered_vlans }}"
+
+
+
+    - name: Update desired_dicts with IP address and subnet mask
+      set_fact:
+        desired_dicts: >-
+          {{
+            desired_dicts | default({})
+            | combine({
+                'vlan_' ~ item.split()[0].split('.')[1]: {
+                  'vlanid': item.split()[0].split('.')[1],
+                  'ipaddress': item.split()[2],
+                  'subnetmask': item.split()[3]
+                }
+              })
+          }}
+      loop: "{{ modified_lines_list }}"
+      when: "'vlan_' ~ item.split()[0].split('.')[1] not in desired_dicts.keys() | list"
+
+
+    - name: Display the generated dictionary
+      debug:
+        var: desired_dicts
+
+ 

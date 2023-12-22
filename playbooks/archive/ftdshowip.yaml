@@ -1,0 +1,207 @@
+---
+
+- hosts: Boston_Test
+  gather_facts: false
+  become: true
+  connection: network_cli
+
+
+
+  tasks:
+    - name: include vars
+      include_vars:
+        file: ../group_vars/.cisco.yaml
+
+    - name: Test modules
+      ftd_send_command:
+        username: "{{ ftd.username }}"
+        ip_address: "172.18.129.89"
+        password: "{{ ftd.password }}"
+        commands:
+          - show ip
+        expected_strings:
+          - "outside150"
+      register: show_ip
+#      failed_when: "'Could not resolve hostname' in ssh_output.msg or 'permission denied' in ssh_output.msg"
+
+    - name: Debug show ip
+      debug:
+        var: show_ip
+    
+  
+
+
+    - name: Filter lines starting with Port-channel
+      set_fact:
+        filtered_lines: >-
+          {% set lines = show_ip.msg[0] | split('\n') %}
+          {{ lines | select('match', '^Port-channel.*') | list }}
+
+    - name : debug filtered lines
+      debug:
+        var: filtered_lines
+
+    - name: set fact for filtered lines list
+      set_fact:
+        filtered_lines_list: {}
+
+    - name: Split filtered_lines into a list
+      set_fact:
+        filtered_lines_list: "{{ filtered_lines | regex_replace('\\\\n|\\\\r|\\[|\\]', '') | regex_replace(\"'\", '') | regex_replace(' manual', '') | regex_replace('Port-channel20', '\\nPort-channel20') | regex_replace(' +', ' ') | regex_replace('^\\s+|\\s+$', '') | split('\\n') }}"
+
+    - name : debug filtered lines list
+      debug:
+        var: filtered_lines_list
+
+    - name: Initialize vlan_data variable
+      set_fact:
+        vlan_data: {}
+
+
+    - name: Extract VLAN IDs without any VLAN filter
+      set_fact:
+        vlan_ids: "{{ filtered_lines | regex_findall('Port-channel20\\.([0-9]+)') }}"
+
+
+    - name: debug vlan_ids
+      debug:
+        var: vlan_ids
+
+    - name: Define desired VLANs
+      set_fact:
+        desired_vlans:
+          - 1420
+          - 1411
+
+    - name: Extract VLAN IDs
+      set_fact:
+        vlan_ids: "{{ desired_vlans | list }}"
+
+    - name: debug desired VLANs
+      debug: 
+        var: desired_vlans 
+
+    - name: Organize data based on interface names
+      set_fact:
+        vlan_dict: {}
+
+    - name: set fact desired dict
+      set_fact:
+        desired_dicts: {}
+
+    # - name: Extract information and create dictionary for desired VLANs
+    #   set_fact:
+    #     desired_dicts: >-
+    #       {{
+    #         desired_dicts | default({}) | combine({
+    #           (item.split()[0].split('.')[1]): {
+    #             'vlanid': item.split()[0].split('.')[1],
+    #             'ipaddress': item.split()[2],
+    #             'subnetmask': item.split()[3]
+    #           }
+    #         })
+    #       }}
+    #   loop: "{{ filtered_lines_list }}"
+    #   when: item.split()[0].split('.')[1] | int in desired_vlans
+
+
+    # - name: Extract information and create dictionary for desired VLANs
+    #   debug:
+    #     msg: "{{ item.split()[0].split('.')[1] }} - {{ item.split()[0].split('.')[1] in desired_vlans | map('string') }}"
+    #   loop: "{{ filtered_lines_list }}"
+
+
+    - name: Create dictionaries for desired VLANs
+      set_fact:
+        desired_dicts: >-
+          {{
+            desired_dicts | default({}) | combine({
+              item: {
+                'vlanid': item
+              }
+            })
+          }}
+      loop: "{{ desired_vlans }}"
+
+
+    - name: Update dictionaries with IP address and subnet mask
+      set_fact:
+        vlan_dicts: "{{ desired_dicts }}"
+
+    # - name: Create VLAN dictionary
+    #   set_fact:
+    #     vlan_dicts: >-
+    #       {{
+    #         vlan_dicts | default({}) | combine({
+    #           'vlan_' ~ item.split()[0].split('.')[1]: {
+    #             'vlanid': item.split()[0].split('.')[1],
+    #             'ipaddress': item.split()[2],
+    #             'subnetmask': item.split()[3]
+    #           }
+    #         })
+    #       }}
+    #   loop: "{{ filtered_lines_list }}"
+
+    - name: Modify filtered_lines_list to separate individual interface details
+      set_fact:
+        modified_lines_list: "{{ modified_lines_list | default([]) + item.split(', ') }}"
+      loop: "{{ filtered_lines_list }}"
+
+    - name: debug modified_lines_list
+      debug:
+        var: modified_lines_list
+
+
+
+    - name: Update desired_dicts with IP address and subnet mask
+      set_fact:
+        desired_dicts: >-
+          {{
+            desired_dicts | default({})
+            | combine({
+                'vlan_' ~ item.split()[0].split('.')[1]: {
+                  'vlanid': item.split()[0].split('.')[1],
+                  'ipaddress': item.split()[2],
+                  'subnetmask': item.split()[3]
+                }
+              })
+          }}
+      loop: "{{ modified_lines_list }}"
+      when: "'vlan_' ~ item.split()[0].split('.')[1] not in desired_dicts.keys() | list"
+
+
+    - name: Display the generated dictionary
+      debug:
+        var: desired_dicts
+
+    - meta: end_play
+
+    - name: Create dictionary for each interface name
+      set_fact:
+        vlan_dict: "{{ vlan_dict | default({}) | combine({ interface_name: {
+                        'vlan_id': vlan_id,
+                        'interface_name': interface_name,
+                        'ip_address': ip_address,
+                        'subnet_mask': subnet_mask
+                      } }) }}"
+      loop: "{{ vlan_ids }}"
+      loop_control:
+        index_var: loop_index
+      vars:
+        vlan_id: "{{ vlan_ids[loop_index] }}"
+        interface_info: "{{ filtered_lines[loop_index] | default([]) }}"
+        interface_name: "{{ interface_info[1] | default('') }}"
+        ip_address: "{{ interface_info[2] | default('') }}"
+        subnet_mask: "{{ interface_info[3] | default('') }}"
+      when: filtered_lines is defined and filtered_lines[loop_index] is defined and filtered_lines[loop_index] | length >= 4
+
+
+
+    - name: debug vlan dict
+      debug:
+        var: vlan_dict
+
+    
+
+    - meta: end_play
+

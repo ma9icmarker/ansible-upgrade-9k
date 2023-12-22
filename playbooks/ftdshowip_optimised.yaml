@@ -1,12 +1,11 @@
 ---
-
 - hosts: Boston_Test
   gather_facts: false
   become: true
   connection: network_cli
 
   tasks:
-    - name: include vars
+    - name: Include vars
       include_vars:
         file: ../group_vars/.cisco.yaml
 
@@ -26,30 +25,22 @@
         var: show_ip
 
     - name: Filter lines starting with Port-channel
+      # Using Jinja2 templating directly within set_fact for clarity
       set_fact:
-        filtered_lines: >-
-          {% set lines = show_ip.msg[0] | split('\n') %}
-          {{ lines | select('match', '^Port-channel.*') | list }}
+        filtered_lines: "{{ show_ip.msg[0].split('\n') | select('match', '^Port-channel.*') | list }}"
 
-    - name : debug filtered lines
+    - name: Debug filtered lines
       debug:
         var: filtered_lines
 
-    - name: set fact for filtered lines list
-      set_fact:
-        filtered_lines_list: {}
-
     - name: Split filtered_lines into a list
       set_fact:
-        filtered_lines_list: "{{ filtered_lines | regex_replace('\\\\n|\\\\r|\\[|\\]', '') | regex_replace(\"'\", '') | regex_replace(' manual', '') | regex_replace('Port-channel20', '\\nPort-channel20') | regex_replace(' +', ' ') | regex_replace('^\\s+|\\s+$', '') | split('\\n') }}"
+        filtered_lines_list: "{{ filtered_lines | regex_replace('\\\\n|\\\\r|\\[|\\]', '') | regex_replace(\"'\", '') | regex_replace(' manual', '') | regex_replace('Port-channel', '\\nPort-channel') | regex_replace(' +', ' ') | regex_replace('^\\s+|\\s+$', '') | split('\\n') }}"
+      # Consider optimizing these regex replacements if possible
 
-    - name : debug filtered lines list
+    - name: Debug filtered lines list
       debug:
         var: filtered_lines_list
-
-    - name: Initialize vlan_data variable
-      set_fact:
-        vlan_data: {}
 
     - name: Extract VLAN IDs without any VLAN filter
       set_fact:
@@ -62,30 +53,26 @@
     - name: Define desired VLANs
       set_fact:
         desired_vlans:
-          - 1420
+          - 1421
           - 1411
 
     - name: Extract VLAN IDs
       set_fact:
         vlan_ids: "{{ desired_vlans | list }}"
 
-    - name: debug desired VLANs
+    - name: Debug desired VLANs
       debug: 
         var: desired_vlans 
-
 
     - name: Split each line into components
       set_fact:
         line_components: "{{ filtered_lines_list | map('regex_replace', ' ,', '') | map('split', '\n') | flatten | map('split', ' ') | list }}"
 
-    - name: Initialize interfaces list
-      set_fact:
-        interfaces: []
-
     - name: Create dictionaries from line components
       set_fact:
         interfaces: "{{ interfaces | default([]) + [ { item[0]: {'interface_name': item[1], 'ipaddress': item[2], 'subnetmask': item[3]} } ] }}"
       loop: "{{ line_components }}"
+      # Loop over each line component to create an interface dictionary
 
     - name: Debug the interfaces list
       debug:
@@ -107,7 +94,6 @@
         filtered_interfaces: "{{ filtered_interfaces | default([]) + [item] }}"
       loop: "{{ interfaces_with_vlan }}"
       when: "(item.values() | first).vlan_id | string in desired_vlans | map('string') | list"
-
 
     - name: Debug the filtered interfaces
       debug:

@@ -1,0 +1,64 @@
+---
+
+- hosts: Boston_Test
+  gather_facts: false
+  become: true
+  connection: network_cli
+
+  tasks:
+
+    - name: include vars
+      include_vars:
+        file: ../group_vars/.cisco.yaml
+
+    - name: Test modules
+      ftd_send_command:
+        username: "{{ ftd.username }}"
+        ip_address: "172.18.129.89"
+        password: "{{ ftd.password }}"
+        commands:
+          - show arp
+        expected_strings:
+          - "outside150"
+      register: show_arp
+      # with_items:
+      #   - 10.67.252.11
+
+
+    - name: Display command outputs
+      debug:
+        var: show_arp
+        
+
+    - name: Debug show_arp.msg[0]
+      debug:
+        var: show_arp.msg[0]
+
+    - name: Convert ARP table output to structured data
+      set_fact:
+        arp_table: "{{ arp_table | default([]) + [{'interface_name': item.split()[0].replace('_', ''), 'ipaddress': item.split()[1], 'macaddress': item.split()[2], 'age': item.split()[3] | int}] }}"
+      loop: "{{ show_arp.msg[0].splitlines() }}"
+      when: item | regex_search('\\S+\\s+\\S+\\s+\\S+\\s+\\S+') and not item | regex_search('^show arp')
+
+    - name: Display the structured ARP table
+      debug:
+        var: arp_table
+
+
+    - name: Convert ARP table list to dictionary with interface_name as key
+      set_fact:
+        arp_dict: >-
+          {{
+            arp_dict | default({}) | 
+            combine({ 
+              item['interface_name']: 
+              (arp_dict[item['interface_name']] | default([])) + [item]
+            })
+          }}
+      loop: "{{ arp_table }}"
+      when: arp_table is defined
+
+    - name: Display the ARP dictionary
+      debug:
+        var: arp_dict
+
