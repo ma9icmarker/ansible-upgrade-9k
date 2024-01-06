@@ -1,0 +1,971 @@
+{
+    "HOULOAX113": {
+        "datetime": "12/19/2023 10:09:33 PM",
+        "ip": "10.70.11.113",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C2960X-24PSQ-L",
+                "PID": "WS-C2960X-24PSQ-L",
+                "VID": "V05",
+                "SN": "FJC2330W12B"
+            }
+        ]
+    },
+    "HOULOSX3103": {
+        "datetime": "12/19/2023 10:09:39 PM",
+        "ip": "10.70.11.3",
+        "inventory": [
+            {
+                "NAME": "c93xx Stack\", DESCR: \"c93xx Stack",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FJC2331T0JS"
+            },
+            {
+                "NAME": "Switch 1\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FJC2331T0JS"
+            },
+            {
+                "NAME": "StackPort1/2\", DESCR: \"StackPort1/2",
+                "PID": "STACK-T1-50CM",
+                "VID": "V01",
+                "SN": "LCC2231G3N1"
+            },
+            {
+                "NAME": "Switch 1 - Power Supply A\", DESCR: \"Switch 1 - Power Supply A",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2330P0TN"
+            },
+            {
+                "NAME": "Switch 1 - Power Supply B\", DESCR: \"Switch 1 - Power Supply B",
+                "PID": "PWR-C1-1100WAC",
+                "VID": "V02",
+                "SN": "DTN2224V278"
+            },
+            {
+                "NAME": "Switch 1 FRU Uplink Module 1\", DESCR: \"2x25G Uplink Module",
+                "PID": "C9300-NM-2Y",
+                "VID": "V01",
+                "SN": "FJZ264213X2"
+            },
+            {
+                "NAME": "Twe1/1/1\", DESCR: \"SFP-10/25GBase-CSR",
+                "PID": "SFP-10/25G-CSR-S",
+                "VID": "V03",
+                "SN": "FNS26080122"
+            },
+            {
+                "NAME": "Switch 2\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FCW2234L0P5"
+            },
+            {
+                "NAME": "StackPort2/1\", DESCR: \"StackPort2/1",
+                "PID": "STACK-T1-50CM",
+                "VID": "V01",
+                "SN": "LCC2231G3N1"
+            },
+            {
+                "NAME": "StackPort2/2\", DESCR: \"StackPort2/2",
+                "PID": "STACK-T1-50CM",
+                "VID": "V01",
+                "SN": "MOC2327A6N6"
+            },
+            {
+                "NAME": "Switch 2 - Power Supply A\", DESCR: \"Switch 2 - Power Supply A",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2330P0SV"
+            },
+            {
+                "NAME": "Switch 2 - Power Supply B\", DESCR: \"Switch 2 - Power Supply B",
+                "PID": "PWR-C1-1100WAC",
+                "VID": "V02",
+                "SN": "DTN2224V272"
+            },
+            {
+                "NAME": "Switch 3\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FCW2234L0PH"
+            },
+            {
+                "NAME": "StackPort3/1\", DESCR: \"StackPort3/1",
+                "PID": "STACK-T1-50CM",
+                "VID": "V01",
+                "SN": "MOC2327A6N6"
+            },
+            {
+                "NAME": "StackPort3/2\", DESCR: \"StackPort3/2",
+                "PID": "STACK-T1-50CM",
+                "VID": "V01",
+                "SN": "LCC2231G3NN"
+            },
+            {
+                "NAME": "Switch 3 - Power Supply A\", DESCR: \"Switch 3 - Power Supply A",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2330P0UC"
+            },
+            {
+                "NAME": "Switch 3 - Power Supply B\", DESCR: \"Switch 3 - Power Supply B",
+                "PID": "PWR-C1-1100WAC",
+                "VID": "V02",
+                "SN": "DTN2224V240"
+            },
+            {
+                "NAME": "Switch 3 FRU Uplink Module 1\", DESCR: \"2x25G Uplink Module",
+                "PID": "C9300-NM-2Y",
+                "VID": "V01",
+                "SN": "FJZ2637BRER"
+            },
+            {
+                "NAME": "Twe3/1/1\", DESCR: \"SFP-10/25GBase-CSR",
+                "PID": "SFP-10/25G-CSR-S",
+                "VID": "V03",
+                "SN": "FNS2608011Z"
+            },
+            {
+                "NAME": "Switch 4\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FJB2331A0KW"
+            },
+            {
+                "NAME": "StackPort4/1\", DESCR: \"StackPort4/1",
+                "PID": "STACK-T1-50CM",
+                "VID": "V01",
+                "SN": "LCC2231G3NN"
+            },
+            {
+                "NAME": "Switch 4 - Power Supply A\", DESCR: \"Switch 4 - Power Supply A",
+                "PID": "PWR-C1-1100WAC",
+                "VID": "V02",
+                "SN": "DTN2224V246"
+            },
+            {
+                "NAME": "Switch 4 - Power Supply B\", DESCR: \"Switch 4 - Power Supply B",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2330P0MW"
+            },
+            {
+                "NAME": "Switch 4 FRU Uplink Module 1\", DESCR: \"8x10G Uplink Module",
+                "PID": "C9300-NM-8X",
+                "VID": "V02",
+                "SN": "FOC232737MP"
+            },
+            {
+                "NAME": "Te4/1/3\", DESCR: \"SFP-10GBase-SR",
+                "PID": "SFP-10G-SR",
+                "VID": "V03",
+                "SN": "AVD23219R4E"
+            }
+        ]
+    },
+    "HOULOAX106": {
+        "datetime": "12/19/2023 10:09:32 PM",
+        "ip": "10.70.11.106",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C3560CX-12PC-S",
+                "PID": "WS-C3560CX-12PC-S",
+                "VID": "V03",
+                "SN": "FOC2333Y1RV"
+            }
+        ]
+    },
+    "HOULOAX110": {
+        "datetime": "12/19/2023 10:09:36 PM",
+        "ip": "10.70.11.110",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C3560CX-12PC-S",
+                "PID": "WS-C3560CX-12PC-S",
+                "VID": "V03",
+                "SN": "FOC2333Y1HT"
+            }
+        ]
+    },
+    "HOULOAX103": {
+        "datetime": "12/19/2023 10:09:32 PM",
+        "ip": "10.70.11.103",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C3560CX-12PC-S",
+                "PID": "WS-C3560CX-12PC-S",
+                "VID": "V03",
+                "SN": "FOC2333Y1UF"
+            }
+        ]
+    },
+    "HOULOAX102": {
+        "datetime": "12/19/2023 10:09:32 PM",
+        "ip": "10.70.11.102",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C3560CX-12PC-S",
+                "PID": "WS-C3560CX-12PC-S",
+                "VID": "V03",
+                "SN": "FOC2333Y1RD"
+            }
+        ]
+    },
+    "HOULOAX107": {
+        "datetime": "12/19/2023 10:09:34 PM",
+        "ip": "10.70.11.107",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C3560CX-12PC-S",
+                "PID": "WS-C3560CX-12PC-S",
+                "VID": "V03",
+                "SN": "FOC2333Y1UH"
+            }
+        ]
+    },
+    "HOULOAX109": {
+        "datetime": "12/19/2023 10:09:36 PM",
+        "ip": "10.70.11.109",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C3560CX-12PC-S",
+                "PID": "WS-C3560CX-12PC-S",
+                "VID": "V03",
+                "SN": "FOC2333Y1UU"
+            }
+        ]
+    },
+    "HOULOAX101": {
+        "datetime": "12/19/2023 10:09:33 PM",
+        "ip": "10.70.11.101",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C3560CX-12PC-S",
+                "PID": "WS-C3560CX-12PC-S",
+                "VID": "V03",
+                "SN": "FOC2333Y1UW"
+            }
+        ]
+    },
+    "HOULOWC101": {
+        "datetime": "12/19/2023 10:09:36 PM",
+        "ip": "10.70.31.11",
+        "inventory": [
+            {
+                "NAME": "Chassis\"    , DESCR: \"Cisco 5520 Wireless Controller",
+                "PID": "AIR-CT5520-K9",
+                "VID": "V01",
+                "SN": "FCH2325V0CG"
+            }
+        ]
+    },
+    "HOULOAX118": {
+        "datetime": "12/19/2023 10:09:33 PM",
+        "ip": "10.70.11.118",
+        "inventory": [
+            {
+                "NAME": "c93xx Stack\", DESCR: \"c93xx Stack",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FJB2331A0PQ"
+            },
+            {
+                "NAME": "Switch 1\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FJB2331A0PQ"
+            },
+            {
+                "NAME": "Switch 1 - Power Supply A\", DESCR: \"Switch 1 - Power Supply A",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P3FQ"
+            },
+            {
+                "NAME": "Switch 1 - Power Supply B\", DESCR: \"Switch 1 - Power Supply B",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P3BV"
+            },
+            {
+                "NAME": "Switch 1 FRU Uplink Module 1\", DESCR: \"8x10G Uplink Module",
+                "PID": "C9300-NM-8X",
+                "VID": "V02",
+                "SN": "FOC23285H6R"
+            },
+            {
+                "NAME": "Te1/1/1\", DESCR: \"SFP-10GBase-SR",
+                "PID": "SFP-10G-SR",
+                "VID": "V03",
+                "SN": "AVD23219R4K"
+            },
+            {
+                "NAME": "Te1/1/2\", DESCR: \"SFP-10GBase-SR",
+                "PID": "SFP-10G-SR",
+                "VID": "V03",
+                "SN": "AVD23219R5G"
+            }
+        ]
+    },
+    "HOULOAX117": {
+        "datetime": "12/19/2023 10:09:33 PM",
+        "ip": "10.70.11.117",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C2960X-24PSQ-L",
+                "PID": "WS-C2960X-24PSQ-L",
+                "VID": "V05",
+                "SN": "FJC2330W12Z"
+            }
+        ]
+    },
+    "HOULOVR001": {
+        "datetime": "12/19/2023 10:09:33 PM",
+        "ip": "10.70.51.252",
+        "inventory": [
+            {
+                "NAME": "Chassis\", DESCR: \"Cisco ISR4431 Chassis",
+                "PID": "ISR4431/K9",
+                "VID": "V05",
+                "SN": "FJC2334A074"
+            },
+            {
+                "NAME": "Power Supply Module 0\", DESCR: \"250W AC Power Supply for Cisco ISR4430",
+                "PID": "PWR-4430-AC",
+                "VID": "V02",
+                "SN": "DCC2326H1TX"
+            },
+            {
+                "NAME": "Fan Tray\", DESCR: \"Cisco ISR4430 Fan Assembly",
+                "PID": "ACS-4430-FANASSY"
+            },
+            {
+                "NAME": "module 0\", DESCR: \"Cisco ISR4431 Built-In NIM controller",
+                "PID": "ISR4431/K9"
+            },
+            {
+                "NAME": "NIM subslot 0/1\", DESCR: \"NIM-2MFT-T1/E1 - T1/E1 Serial Module",
+                "PID": "NIM-2MFT-T1/E1",
+                "VID": "V05",
+                "SN": "FOC23303XHS"
+            },
+            {
+                "NAME": "subslot 0/1 db module 0\", DESCR: \"PVDM4-64 Voice DSP Module",
+                "PID": "PVDM4-64",
+                "VID": "V02",
+                "SN": "FOC23318FDH"
+            },
+            {
+                "NAME": "PVDM subslot 0/4\", DESCR: \"PVDM4-64 Voice DSP Module",
+                "PID": "PVDM4-64",
+                "VID": "V02",
+                "SN": "FOC23318EZ5"
+            },
+            {
+                "NAME": "NIM subslot 0/0\", DESCR: \"Front Panel 4 ports Gigabitethernet Module",
+                "PID": "ISR4431-X-4x1GE",
+                "VID": "V01"
+            },
+            {
+                "NAME": "module R0\", DESCR: \"Cisco ISR4431 Route Processor",
+                "PID": "ISR4431/K9",
+                "VID": "V05",
+                "SN": "FOC23303946"
+            },
+            {
+                "NAME": "module F0\", DESCR: \"Cisco ISR4431 Forwarding Processor",
+                "PID": "ISR4431/K9"
+            }
+        ]
+    },
+    "HOULOAX116": {
+        "datetime": "12/19/2023 10:09:31 PM",
+        "ip": "10.70.11.116",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C2960X-24PSQ-L",
+                "PID": "WS-C2960X-24PSQ-L",
+                "VID": "V05",
+                "SN": "FJC2330W12X"
+            }
+        ]
+    },
+    "HOULOCX001": {
+        "datetime": "12/19/2023 10:09:34 PM",
+        "ip": "10.70.11.250",
+        "inventory": [
+            {
+                "NAME": "c93xx Stack\", DESCR: \"c93xx Stack",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FJC2331T0SD"
+            },
+            {
+                "NAME": "Switch 1\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FJC2331T0SD"
+            },
+            {
+                "NAME": "StackPort1/1\", DESCR: \"StackPort1/1",
+                "PID": "STACK-T1-3M",
+                "VID": "V01",
+                "SN": "MOC2325A12W"
+            },
+            {
+                "NAME": "StackPort1/2\", DESCR: \"StackPort1/2",
+                "PID": "STACK-T1-3M",
+                "VID": "V01",
+                "SN": "LCC2327G00T"
+            },
+            {
+                "NAME": "Switch 1 - Power Supply A\", DESCR: \"Switch 1 - Power Supply A",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P2Y0"
+            },
+            {
+                "NAME": "Switch 1 - Power Supply B\", DESCR: \"Switch 1 - Power Supply B",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P2S1"
+            },
+            {
+                "NAME": "Switch 1 FRU Uplink Module 1\", DESCR: \"2x40G Uplink Module",
+                "PID": "C9300-NM-2Q",
+                "VID": "V02",
+                "SN": "FJZ233113NL"
+            },
+            {
+                "NAME": "Fo1/1/1\", DESCR: \"QSFP 40G SR4 SFP",
+                "PID": "QSFP-40G-SR4",
+                "VID": "V03",
+                "SN": "AVP2321S2NP"
+            },
+            {
+                "NAME": "Fo1/1/2\", DESCR: \"QSFP 40G SR4 SFP",
+                "PID": "QSFP-40G-SR4",
+                "VID": "V03",
+                "SN": "AVP2321S2P1"
+            },
+            {
+                "NAME": "Switch 2\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FJB2331A0PJ"
+            },
+            {
+                "NAME": "StackPort2/1\", DESCR: \"StackPort2/1",
+                "PID": "STACK-T1-3M",
+                "VID": "V01",
+                "SN": "LCC2327G00T"
+            },
+            {
+                "NAME": "StackPort2/2\", DESCR: \"StackPort2/2",
+                "PID": "STACK-T1-1M",
+                "VID": "V01",
+                "SN": "MOC2324A2LD"
+            },
+            {
+                "NAME": "Switch 2 - Power Supply A\", DESCR: \"Switch 2 - Power Supply A",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P31U"
+            },
+            {
+                "NAME": "Switch 2 - Power Supply B\", DESCR: \"Switch 2 - Power Supply B",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P2WN"
+            },
+            {
+                "NAME": "Switch 2 FRU Uplink Module 1\", DESCR: \"8x10G Uplink Module",
+                "PID": "C9300-NM-8X",
+                "VID": "V02",
+                "SN": "FOC23285GYA"
+            },
+            {
+                "NAME": "Te2/1/2\", DESCR: \"SFP-10G-ACTIVE-CABLE",
+                "PID": "SFP-H10GB-ACU7M",
+                "VID": "V02",
+                "SN": "TED2317T0AV"
+            },
+            {
+                "NAME": "Te2/1/3\", DESCR: \"SFP-10G-ACTIVE-CABLE",
+                "PID": "SFP-H10GB-ACU7M",
+                "VID": "V02",
+                "SN": "TED2317T09Z"
+            },
+            {
+                "NAME": "Te2/1/5\", DESCR: \"SFP-10GBase-SR",
+                "PID": "SFP-10G-SR",
+                "VID": "V03",
+                "SN": "AVD23219R6E"
+            },
+            {
+                "NAME": "Te2/1/6\", DESCR: \"SFP-10GBase-SR",
+                "PID": "SFP-10G-SR",
+                "VID": "V03",
+                "SN": "AVD23219R6G"
+            },
+            {
+                "NAME": "Te2/1/8\", DESCR: \"SFP-10GBase-SR",
+                "PID": "SFP-10G-SR",
+                "VID": "V03",
+                "SN": "AVD22239D5C"
+            },
+            {
+                "NAME": "Switch 3\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FJB2331A0PW"
+            },
+            {
+                "NAME": "StackPort3/1\", DESCR: \"StackPort3/1",
+                "PID": "STACK-T1-1M",
+                "VID": "V01",
+                "SN": "MOC2324A2LD"
+            },
+            {
+                "NAME": "StackPort3/2\", DESCR: \"StackPort3/2",
+                "PID": "STACK-T1-1M",
+                "VID": "V01",
+                "SN": "MOC2324A1K7"
+            },
+            {
+                "NAME": "Switch 3 - Power Supply A\", DESCR: \"Switch 3 - Power Supply A",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P2DT"
+            },
+            {
+                "NAME": "Switch 3 - Power Supply B\", DESCR: \"Switch 3 - Power Supply B",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P2YU"
+            },
+            {
+                "NAME": "Switch 3 FRU Uplink Module 1\", DESCR: \"2x40G Uplink Module",
+                "PID": "C9300-NM-2Q",
+                "VID": "V02",
+                "SN": "FJZ2331141E"
+            },
+            {
+                "NAME": "Fo3/1/1\", DESCR: \"QSFP 40G SR4 SFP",
+                "PID": "QSFP-40G-SR4",
+                "VID": "V03",
+                "SN": "AVP2321S25B"
+            },
+            {
+                "NAME": "Fo3/1/2\", DESCR: \"QSFP 40G SR4 SFP",
+                "PID": "QSFP-40G-SR4",
+                "VID": "V03",
+                "SN": "AVP2321S24M"
+            },
+            {
+                "NAME": "Switch 4\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V03",
+                "SN": "FOC2434L1LU"
+            },
+            {
+                "NAME": "StackPort4/1\", DESCR: \"StackPort4/1",
+                "PID": "STACK-T1-1M",
+                "VID": "V01",
+                "SN": "MOC2324A1K7"
+            },
+            {
+                "NAME": "StackPort4/2\", DESCR: \"StackPort4/2",
+                "PID": "STACK-T1-3M",
+                "VID": "V01",
+                "SN": "MOC2325A12W"
+            },
+            {
+                "NAME": "Switch 4 - Power Supply A\", DESCR: \"Switch 4 - Power Supply A",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P2WM"
+            },
+            {
+                "NAME": "Switch 4 - Power Supply B\", DESCR: \"Switch 4 - Power Supply B",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P34E"
+            },
+            {
+                "NAME": "Switch 4 FRU Uplink Module 1\", DESCR: \"8x10G Uplink Module",
+                "PID": "C9300-NM-8X",
+                "VID": "V01",
+                "SN": "FOC22311HQQ"
+            },
+            {
+                "NAME": "Te4/1/1\", DESCR: \"SFP-10GBase-SR",
+                "PID": "SFP-10G-SR",
+                "VID": "V03",
+                "SN": "AVD23219R6F"
+            }
+        ]
+    },
+    "HOULOAX111": {
+        "datetime": "12/19/2023 10:09:37 PM",
+        "ip": "10.70.11.111",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C3560CX-12PC-S",
+                "PID": "WS-C3560CX-12PC-S",
+                "VID": "V03",
+                "SN": "FOC2333Y1RU"
+            }
+        ]
+    },
+    "HOULOAX104": {
+        "datetime": "12/19/2023 10:09:33 PM",
+        "ip": "10.70.11.104",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C3560CX-12PC-S",
+                "PID": "WS-C3560CX-12PC-S",
+                "VID": "V03",
+                "SN": "FOC2333Y1RP"
+            }
+        ]
+    },
+    "HOULOFW103-PRI": {
+        "datetime": "12/19/2023 10:09:38 PM",
+        "ip": "10.70.252.1",
+        "inventory": [
+            {
+                "PID": "FPR-2110",
+                "VID": "V02",
+                "SN": "JMX2334Z03U"
+            }
+        ]
+    },
+    "HOULOIX002": {
+        "datetime": "12/19/2023 10:09:34 PM",
+        "ip": "10.70.11.192",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C3560CX-12PC-S",
+                "PID": "WS-C3560CX-12PC-S",
+                "VID": "V03",
+                "SN": "FOC2143T4VE"
+            }
+        ]
+    },
+    "HOULOAX115": {
+        "datetime": "12/19/2023 10:09:34 PM",
+        "ip": "10.70.11.115",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C2960X-24PSQ-L",
+                "PID": "WS-C2960X-24PSQ-L",
+                "VID": "V05",
+                "SN": "FJC2330W129"
+            }
+        ]
+    },
+    "HOULOAX108": {
+        "datetime": "12/19/2023 10:09:36 PM",
+        "ip": "10.70.11.108",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C3560CX-12PC-S",
+                "PID": "WS-C3560CX-12PC-S",
+                "VID": "V03",
+                "SN": "FOC2333Y1RB"
+            }
+        ]
+    },
+    "HOULOSX001": {
+        "datetime": "12/19/2023 10:09:34 PM",
+        "ip": "10.70.11.1",
+        "inventory": [
+            {
+                "NAME": "c93xx Stack\", DESCR: \"c93xx Stack",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FJC2331S0VP"
+            },
+            {
+                "NAME": "Switch 1\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FJC2331S0VP"
+            },
+            {
+                "NAME": "StackPort1/1\", DESCR: \"StackPort1/1",
+                "PID": "STACK-T1-3M",
+                "VID": "V01",
+                "SN": "LCC2326H3E3"
+            },
+            {
+                "NAME": "StackPort1/2\", DESCR: \"StackPort1/2",
+                "PID": "STACK-T1-3M",
+                "VID": "V01",
+                "SN": "LCC2326H3E2"
+            },
+            {
+                "NAME": "Switch 1 - Power Supply A\", DESCR: \"Switch 1 - Power Supply A",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P2RM"
+            },
+            {
+                "NAME": "Switch 1 - Power Supply B\", DESCR: \"Switch 1 - Power Supply B",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P33U"
+            },
+            {
+                "NAME": "Switch 1 FRU Uplink Module 1\", DESCR: \"2x40G Uplink Module",
+                "PID": "C9300-NM-2Q",
+                "VID": "V02",
+                "SN": "FJZ2331137E"
+            },
+            {
+                "NAME": "Fo1/1/1\", DESCR: \"QSFP 40G SR4 SFP",
+                "PID": "QSFP-40G-SR4",
+                "VID": "V03",
+                "SN": "AVP2321S2P2"
+            },
+            {
+                "NAME": "Fo1/1/2\", DESCR: \"QSFP 40G SR4 SFP",
+                "PID": "QSFP-40G-SR4",
+                "VID": "V03",
+                "SN": "AVP2321S2M9"
+            },
+            {
+                "NAME": "Switch 2\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FJB2331A0PR"
+            },
+            {
+                "NAME": "StackPort2/1\", DESCR: \"StackPort2/1",
+                "PID": "STACK-T1-3M",
+                "VID": "V01",
+                "SN": "MOC2325A1JQ"
+            },
+            {
+                "NAME": "StackPort2/2\", DESCR: \"StackPort2/2",
+                "PID": "STACK-T1-3M",
+                "VID": "V01",
+                "SN": "LCC2326H3E3"
+            },
+            {
+                "NAME": "Switch 2 - Power Supply A\", DESCR: \"Switch 2 - Power Supply A",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P2DW"
+            },
+            {
+                "NAME": "Switch 2 - Power Supply B\", DESCR: \"Switch 2 - Power Supply B",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P30C"
+            },
+            {
+                "NAME": "Switch 2 FRU Uplink Module 1\", DESCR: \"8x10G Uplink Module",
+                "PID": "C9300-NM-8X",
+                "VID": "V02",
+                "SN": "FOC23285F7G"
+            },
+            {
+                "NAME": "Switch 3\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V02",
+                "SN": "FJC2331U0J7"
+            },
+            {
+                "NAME": "StackPort3/1\", DESCR: \"StackPort3/1",
+                "PID": "STACK-T1-3M",
+                "VID": "V01",
+                "SN": "LCC2326H3E2"
+            },
+            {
+                "NAME": "StackPort3/2\", DESCR: \"StackPort3/2",
+                "PID": "STACK-T1-3M",
+                "VID": "V01",
+                "SN": "MOC2325A1JQ"
+            },
+            {
+                "NAME": "Switch 3 - Power Supply A\", DESCR: \"Switch 3 - Power Supply A",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P3FM"
+            },
+            {
+                "NAME": "Switch 3 - Power Supply B\", DESCR: \"Switch 3 - Power Supply B",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "ART2331P2T7"
+            },
+            {
+                "NAME": "Switch 3 FRU Uplink Module 1\", DESCR: \"2x40G Uplink Module",
+                "PID": "C9300-NM-2Q",
+                "VID": "V02",
+                "SN": "FJZ233114Q0"
+            },
+            {
+                "NAME": "Fo3/1/1\", DESCR: \"QSFP 40G SR4 SFP",
+                "PID": "QSFP-40G-SR4",
+                "VID": "V03",
+                "SN": "AVP2321S24L"
+            },
+            {
+                "NAME": "Fo3/1/2\", DESCR: \"QSFP 40G SR4 SFP",
+                "PID": "QSFP-40G-SR4",
+                "VID": "V03",
+                "SN": "AVP2321S2NG"
+            }
+        ]
+    },
+    "HOULOIX101": {
+        "datetime": "12/19/2023 10:09:32 PM",
+        "ip": "10.70.11.191",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C2960CX-8TC-L",
+                "PID": "WS-C2960CX-8TC-L",
+                "VID": "V04",
+                "SN": "FOC2325Y4D9"
+            },
+            {
+                "NAME": "GigabitEthernet0/11\", DESCR: \"1000BaseSX SFP",
+                "PID": "GLC-SX-MMD",
+                "VID": "V01",
+                "SN": "FNS193805TV"
+            }
+        ]
+    },
+    "HOULOAX3104": {
+        "datetime": "12/19/2023 10:09:37 PM",
+        "ip": "10.70.11.4",
+        "inventory": [
+            {
+                "NAME": "c93xx Stack\", DESCR: \"c93xx Stack",
+                "PID": "C9300-48UXM",
+                "VID": "V08",
+                "SN": "FJC2649218L"
+            },
+            {
+                "NAME": "Switch 1\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V08",
+                "SN": "FJC2649218L"
+            },
+            {
+                "NAME": "StackPort1/2\", DESCR: \"StackPort1/2",
+                "PID": "STACK-T1-50CM",
+                "VID": "V01",
+                "SN": "MOC2327A6N5"
+            },
+            {
+                "NAME": "Switch 1 - Power Supply A\", DESCR: \"Switch 1 - Power Supply A",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "DCC2646D9N2"
+            },
+            {
+                "NAME": "Switch 1 - Power Supply B\", DESCR: \"Switch 1 - Power Supply B",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "DCC2646D9H9"
+            },
+            {
+                "NAME": "Switch 1 FRU Uplink Module 1\", DESCR: \"8x10G Uplink Module",
+                "PID": "C9300-NM-8X",
+                "VID": "V01",
+                "SN": "FOC22311CNG"
+            },
+            {
+                "NAME": "Te1/1/1\", DESCR: \"SFP-10GBase-SR",
+                "PID": "SFP-10G-SR",
+                "VID": "V03",
+                "SN": "AVD222390NG"
+            },
+            {
+                "NAME": "Switch 2\", DESCR: \"C9300-48UXM",
+                "PID": "C9300-48UXM",
+                "VID": "V08",
+                "SN": "FJC264921AG"
+            },
+            {
+                "NAME": "StackPort2/1\", DESCR: \"StackPort2/1",
+                "PID": "STACK-T1-50CM",
+                "VID": "V01",
+                "SN": "MOC2327A6N5"
+            },
+            {
+                "NAME": "Switch 2 - Power Supply A\", DESCR: \"Switch 2 - Power Supply A",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "DCC2646D9H8"
+            },
+            {
+                "NAME": "Switch 2 - Power Supply B\", DESCR: \"Switch 2 - Power Supply B",
+                "PID": "PWR-C1-1100WAC-P",
+                "VID": "V01",
+                "SN": "DCC2646D9HN"
+            },
+            {
+                "NAME": "Switch 2 FRU Uplink Module 1\", DESCR: \"8x10G Uplink Module",
+                "PID": "C9300-NM-8X",
+                "VID": "V02",
+                "SN": "FOC232737JD"
+            }
+        ]
+    },
+    "HOULOFW104-SEC": {
+        "datetime": "12/19/2023 10:09:38 PM",
+        "ip": "10.70.252.2",
+        "inventory": [
+            {
+                "PID": "FPR-2110",
+                "VID": "V02",
+                "SN": "JMX2334Z03T"
+            }
+        ]
+    },
+    "HOULOAX114": {
+        "datetime": "12/19/2023 10:09:34 PM",
+        "ip": "10.70.11.114",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C2960X-24PSQ-L",
+                "PID": "WS-C2960X-24PSQ-L",
+                "VID": "V05",
+                "SN": "FJC2330W12D"
+            }
+        ]
+    },
+    "HOULOAX112": {
+        "datetime": "12/19/2023 10:09:35 PM",
+        "ip": "10.70.11.112",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C2960X-24PSQ-L",
+                "PID": "WS-C2960X-24PSQ-L",
+                "VID": "V05",
+                "SN": "FJC2330W12U"
+            }
+        ]
+    },
+    "HOULOAX105": {
+        "datetime": "12/19/2023 10:09:32 PM",
+        "ip": "10.70.11.105",
+        "inventory": [
+            {
+                "NAME": "1\", DESCR: \"WS-C3560CX-12PC-S",
+                "PID": "WS-C3560CX-12PC-S",
+                "VID": "V03",
+                "SN": "FOC2333Y1RC"
+            }
+        ]
+    }
+}
