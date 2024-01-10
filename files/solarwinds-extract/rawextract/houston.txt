@@ -1,0 +1,1474 @@
+1/9/2024 11:08:12 PM on NYCLOSX119 (10.121.11.119) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029W02H
+
+___________________________________________________________________________
+
+1/9/2024 11:07:52 PM on NYCLOVR004 (10.121.51.15) by WCNET\kumaras-adm
+
+show inventory
+NAME: "VG224 chassis", DESCR: "VG224 chassis"
+PID: VG224             , VID: V04, SN: FHK1328F0T5
+
+___________________________________________________________________________
+
+1/9/2024 11:08:17 PM on WDCLOVR005 (10.55.51.132) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1760 chassis", DESCR: "1760 chassis, Hw Serial#: 2690386588, Hw Revision: 0x500"
+PID: 1760              , VID: 0x500, SN: FOC08362E0M (2690386588)
+NAME: "Chassis Slot", DESCR: "1700 Chassis Slot"
+PID: 1700 Chassis Slot , VID:    , SN:            
+NAME: "C1760 Mainboard", DESCR: "C1760 Mainboard"
+PID: C1760 Mainboard   , VID: 0x500, SN: FOC08362E0M (2690386588)
+NAME: "Daughter card slot:0", DESCR: "1700 DaughterCard Slot"
+PID: 1700 DaughterCard Slot, VID:    , SN:            
+NAME: "WIC/VIC 0", DESCR: "2nd generation four port FXO voice interface daughtercard"
+PID: 2nd generation four port FXO voice interface daughtercard, VID: 4.1, SN: 1058131097 
+NAME: "voice-port 0/0", DESCR: "Foreign Exchange Office (FXO4-M1/M2/M3) 0/0"
+PID: Foreign Exchange Office (FXO4-M1/M2/M3) 0/0, VID:    , SN:            
+NAME: "voice-port 0/1", DESCR: "Foreign Exchange Office (FXO4-M1/M2/M3) 0/1"
+PID: Foreign Exchange Office (FXO4-M1/M2/M3) 0/1, VID:    , SN:            
+NAME: "voice-port 0/2", DESCR: "Foreign Exchange Office (FXO4-M1/M2/M3) 0/2"
+PID: Foreign Exchange Office (FXO4-M1/M2/M3) 0/2, VID:    , SN:            
+NAME: "voice-port 0/3", DESCR: "Foreign Exchange Office (FXO4-M1/M2/M3) 0/3"
+PID: Foreign Exchange Office (FXO4-M1/M2/M3) 0/3, VID:    , SN:            
+NAME: "Daughter card slot:1", DESCR: "1700 DaughterCard Slot"
+PID: 1700 DaughterCard Slot, VID:    , SN:            
+NAME: "WIC/VIC 1", DESCR: "2nd generation four port FXO voice interface daughtercard"
+PID: 2nd generation four port FXO voice interface daughtercard, VID: 4.1, SN: 1486283825 
+NAME: "voice-port 1/0", DESCR: "Foreign Exchange Office (FXO4-M1/M2/M3) 1/0"
+PID: Foreign Exchange Office (FXO4-M1/M2/M3) 1/0, VID:    , SN:            
+NAME: "voice-port 1/1", DESCR: "Foreign Exchange Office (FXO4-M1/M2/M3) 1/1"
+PID: Foreign Exchange Office (FXO4-M1/M2/M3) 1/1, VID:    , SN:            
+NAME: "voice-port 1/2", DESCR: "Foreign Exchange Office (FXO4-M1/M2/M3) 1/2"
+PID: Foreign Exchange Office (FXO4-M1/M2/M3) 1/2, VID:    , SN:            
+NAME: "voice-port 1/3", DESCR: "Foreign Exchange Office (FXO4-M1/M2/M3) 1/3"
+PID: Foreign Exchange Office (FXO4-M1/M2/M3) 1/3, VID:    , SN:            
+NAME: "Daughter card slot:2", DESCR: "1700 DaughterCard Slot"
+PID: 1700 DaughterCard Slot, VID:    , SN:            
+NAME: "WIC/VIC 2", DESCR: "2nd generation four port FXO voice interface daughtercard"
+PID: 2nd generation four port FXO voice interface daughtercard, VID: 4.1, SN: 2008917870 
+NAME: "voice-port 2/0", DESCR: "Foreign Exchange Office (FXO4-M1/M2/M3) 2/0"
+PID: Foreign Exchange Office (FXO4-M1/M2/M3) 2/0, VID:    , SN:            
+NAME: "voice-port 2/1", DESCR: "Foreign Exchange Office (FXO4-M1/M2/M3) 2/1"
+PID: Foreign Exchange Office (FXO4-M1/M2/M3) 2/1, VID:    , SN:            
+NAME: "voice-port 2/2", DESCR: "Foreign Exchange Office (FXO4-M1/M2/M3) 2/2"
+PID: Foreign Exchange Office (FXO4-M1/M2/M3) 2/2, VID:    , SN:            
+NAME: "voice-port 2/3", DESCR: "Foreign Exchange Office (FXO4-M1/M2/M3) 2/3"
+PID: Foreign Exchange Office (FXO4-M1/M2/M3) 2/3, VID:    , SN:            
+NAME: "Daughter card slot:3", DESCR: "1700 DaughterCard Slot"
+PID: 1700 DaughterCard Slot, VID:    , SN:            
+NAME: "DSP Module Slot", DESCR: "Packet Voice DSP Module Slot 0"
+PID: Packet Voice DSP Module Slot 0, VID:    , SN:            
+NAME: "DSP Module", DESCR: "Packet Voice DSP Module with 3 C549 DSPs"
+PID: Packet Voice DSP Module with 3 C549 DSPs, VID: 3.2, SN: VIC08334A0C
+NAME: "DSP Port", DESCR: "C549"
+PID: C549              , VID:    , SN:            
+NAME: "DSP Port", DESCR: "C549"
+PID: C549              , VID:    , SN:            
+NAME: "DSP Port", DESCR: "C549"
+PID: C549              , VID:    , SN:            
+NAME: "DSP Module Slot", DESCR: "Packet Voice DSP Module Slot 1"
+PID: Packet Voice DSP Module Slot 1, VID:    , SN:            
+NAME: "FastEthernet0/0", DESCR: "PQUICC_FEC"
+PID: PQUICC_FEC        , VID:    , SN:
+
+___________________________________________________________________________
+
+1/9/2024 11:08:22 PM on NYCLOSX110 (10.121.11.110) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029W01Y
+
+___________________________________________________________________________
+
+1/9/2024 11:08:07 PM on NYCLOSX136 (10.121.11.136) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FCW2030A4BH
+
+___________________________________________________________________________
+
+1/9/2024 11:08:21 PM on BOSLOLR001 (10.67.51.11) by WCNET\kumaras-adm
+
+show inventory
+NAME: "Chassis", DESCR: "Cisco ISR4431 Chassis"
+PID: ISR4431/K9        , VID: V01, SN: FJC2023D0A5
+NAME: "Power Supply Module 0", DESCR: "250W AC Power Supply for Cisco ISR4430"
+PID: PWR-4430-AC       , VID: V01, SN: LIT20070GK2
+NAME: "Power Supply Module 1", DESCR: "250W AC Power Supply for Cisco ISR4430"
+PID: PWR-4430-AC       , VID: V01, SN: LIT20070GFP
+NAME: "Fan Tray", DESCR: "Cisco ISR4430 Fan Assembly"
+PID: ACS-4430-FANASSY  , VID:    , SN:            
+NAME: "module 0", DESCR: "Cisco ISR4431 Built-In NIM controller"
+PID: ISR4431/K9        , VID:    , SN:            
+NAME: "NIM subslot 0/1", DESCR: "NIM-2MFT-T1/E1 - T1/E1 Serial Module"
+PID: NIM-2MFT-T1/E1    , VID: V03, SN: FOC20314E6C
+NAME: "PVDM subslot 0/4", DESCR: "PVDM4-64 Voice DSP Module"
+PID: PVDM4-64          , VID: V02, SN: FOC20171ZQE
+NAME: "NIM subslot 0/0", DESCR: "Front Panel 4 ports Gigabitethernet Module"
+PID: ISR4431-X-4x1GE   , VID: V01, SN: JAB092709EL
+NAME: "module R0", DESCR: "Cisco ISR4431 Route Processor"
+PID: ISR4431/K9        , VID: V01, SN: FOC2020793J
+NAME: "module F0", DESCR: "Cisco ISR4431 Forwarding Processor"
+PID: ISR4431/K9        , VID:    , SN:
+
+___________________________________________________________________________
+
+1/9/2024 11:08:28 PM on NYCLOSX010 (10.121.11.20) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c38xx Stack", DESCR: "c38xx Stack"
+PID: WS-C3850-12X48UL-S, VID: V02  , SN: FOC2033U237
+NAME: "Switch 1", DESCR: "WS-C3850-12X48UL-S"
+PID: WS-C3850-12X48UL-S, VID: V02  , SN: FOC2033U237
+NAME: "StackPort1/1", DESCR: "StackPort1/1"
+PID: STACK-T1-3M       , VID: V01  , SN: MOC2048A8N3
+NAME: "StackPort1/2", DESCR: "StackPort1/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2026A5JW
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC    , VID: V01  , SN: DTN2023V00Q
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-1100WAC    , VID: V01  , SN: DTN2023V00T
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "2x1G 2x10G Uplink Module"
+PID: C3850-NM-2-10G    , VID: V01  , SN: FOC20325ET5
+NAME: "Te1/1/3", DESCR: "SFP-10GBase-SR"
+PID: SFP-10G-SR          , VID: V02  , SN: FNS14150VYN     
+NAME: "Te1/1/4", DESCR: "SFP-10GBase-SR"
+PID: SFP-10G-SR          , VID: V03  , SN: AGA160241SN     
+NAME: "Switch 2", DESCR: "WS-C3850-12X48UL-S"
+PID: WS-C3850-12X48UL-S, VID: V02  , SN: FCW2033D1JD
+NAME: "StackPort2/1", DESCR: "StackPort2/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2026A5JW
+NAME: "StackPort2/2", DESCR: "StackPort2/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2028G5GG
+NAME: "Switch 2 - Power Supply A", DESCR: "Switch 2 - Power Supply A"
+PID: PWR-C1-1100WAC    , VID: V01  , SN: DTN2023V00S
+NAME: "Switch 2 - Power Supply B", DESCR: "Switch 2 - Power Supply B"
+PID: PWR-C1-1100WAC    , VID: V01  , SN: DTN2023V00N
+NAME: "Switch 2 FRU Uplink Module 1", DESCR: "2x1G 2x10G Uplink Module"
+PID: C3850-NM-2-10G    , VID: V01  , SN: FOC20325EPK
+NAME: "Te2/1/3", DESCR: "SFP-10GBase-LRM"
+PID: SFP-10G-LRM         , VID: V03  , SN: FNS20301MFG     
+NAME: "Switch 3", DESCR: "WS-C3850-12X48UL-S"
+PID: WS-C3850-12X48UL-S, VID: V02  , SN: FCW2033F1PC
+NAME: "StackPort3/1", DESCR: "StackPort3/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2028G5GG
+NAME: "StackPort3/2", DESCR: "StackPort3/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2028G5DA
+NAME: "Switch 3 - Power Supply A", DESCR: "Switch 3 - Power Supply A"
+PID: PWR-C1-1100WAC    , VID: V01  , SN: DTN2025V0MB
+NAME: "Switch 3 - Power Supply B", DESCR: "Switch 3 - Power Supply B"
+PID: PWR-C1-1100WAC    , VID: V01  , SN: DTN2023V00R
+NAME: "Switch 4", DESCR: "WS-C3850-12X48U-S"
+PID: WS-C3850-12X48U-S , VID: V02  , SN: FOC2106U0W6
+NAME: "StackPort4/1", DESCR: "StackPort4/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2028G5DA
+NAME: "StackPort4/2", DESCR: "StackPort4/2"
+PID: STACK-T1-3M       , VID: V01  , SN: MOC2048A8N3
+NAME: "Switch 4 - Power Supply A", DESCR: "Switch 4 - Power Supply A"
+PID: PWR-C1-1100WAC    , VID: V02  , SN: DTN2048V07E
+NAME: "Switch 4 - Power Supply B", DESCR: "Switch 4 - Power Supply B"
+PID: PWR-C1-1100WAC    , VID: V02  , SN: DTN2048V07D
+
+___________________________________________________________________________
+
+1/9/2024 11:08:25 PM on NYCLOSX014 (10.121.11.24) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c38xx Stack", DESCR: "c38xx Stack"
+PID: WS-C3850-12X48U-S , VID: V02  , SN: FCW2106C0V0
+NAME: "Switch 1", DESCR: "WS-C3850-12X48U-S"
+PID: WS-C3850-12X48U-S , VID: V02  , SN: FCW2106C0V6
+NAME: "StackPort1/1", DESCR: "StackPort1/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2051A3HG
+NAME: "StackPort1/2", DESCR: "StackPort1/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2050A6TK
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC    , VID: V02  , SN: LIT20503FHH
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-1100WAC    , VID: V02  , SN: LIT20503G6F
+NAME: "Switch 2", DESCR: "WS-C3850-12X48U-S"
+PID: WS-C3850-12X48U-S , VID: V02  , SN: FOC2106U0WB
+NAME: "StackPort2/1", DESCR: "StackPort2/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2050A6TK
+NAME: "StackPort2/2", DESCR: "StackPort2/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2050A6U0
+NAME: "Switch 2 - Power Supply A", DESCR: "Switch 2 - Power Supply A"
+PID: PWR-C1-1100WAC    , VID: V02  , SN: LIT20503FFG
+NAME: "Switch 2 - Power Supply B", DESCR: "Switch 2 - Power Supply B"
+PID: PWR-C1-1100WAC    , VID: V02  , SN: LIT20503FG6
+NAME: "Switch 3", DESCR: "WS-C3850-12X48U-S"
+PID: WS-C3850-12X48U-S , VID: V02  , SN: FCW2106C0V0
+NAME: "StackPort3/1", DESCR: "StackPort3/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2050A6U0
+NAME: "StackPort3/2", DESCR: "StackPort3/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2051A3HG
+NAME: "Switch 3 - Power Supply A", DESCR: "Switch 3 - Power Supply A"
+PID: PWR-C1-1100WAC    , VID: V02  , SN: DTN2048V07F
+NAME: "Switch 3 - Power Supply B", DESCR: "Switch 3 - Power Supply B"
+PID: PWR-C1-1100WAC    , VID: V02  , SN: LIT20503FF3
+NAME: "Switch 3 FRU Uplink Module 1", DESCR: "2x1G 2x10G Uplink Module"
+PID: C3850-NM-2-10G    , VID: V01  , SN: FOC20325E72
+NAME: "Te3/1/3", DESCR: "SFP-10GBase-LRM"
+PID: SFP-10G-LRM         , VID: V03  , SN: FNS20301MYM     
+NAME: "Te3/1/4", DESCR: "SFP-10GBase-LRM"
+PID: SFP-10G-LRM         , VID: V03  , SN: FNS20301FMU
+
+___________________________________________________________________________
+
+1/9/2024 11:08:13 PM on NYCLOSX118 (10.121.11.118) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3PS
+
+___________________________________________________________________________
+
+1/9/2024 11:07:56 PM on NYCLOSX140 (10.121.11.140) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FOC2028V43A
+
+___________________________________________________________________________
+
+1/9/2024 11:08:10 PM on NYCLOSX124 (10.121.11.124) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3RN
+
+___________________________________________________________________________
+
+1/9/2024 11:08:15 PM on NYCLOSX111 (10.121.11.111) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3R1
+
+___________________________________________________________________________
+
+1/9/2024 11:08:11 PM on NYCLOSX126 (10.121.11.126) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FCW2030A47C
+
+___________________________________________________________________________
+
+1/9/2024 11:08:07 PM on NYCLOSX131 (10.121.11.131) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FOC2029S0NY
+
+___________________________________________________________________________
+
+1/9/2024 11:08:27 PM on NYCLOSX004 (10.121.11.14) by WCNET\kumaras-adm
+
+show inventory
+NAME: "Switch System", DESCR: "Cisco Systems, Inc. WS-C4510R+E 10 slot switch "
+PID: WS-C4510R+E       , VID: V09  , SN: FXS2026Q330
+NAME: "Clock Module", DESCR: "Clock Module"
+PID: WS-X4K-CLOCK-E    , VID:      , SN: FXS202304BD
+NAME: "Mux Buffer 1 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS2022068J
+NAME: "Mux Buffer 2 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS202200S8
+NAME: "Mux Buffer 3 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS20220680
+NAME: "Mux Buffer 4 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS202204AS
+NAME: "Mux Buffer 7 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS202204B2
+NAME: "Mux Buffer 8 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS202204B1
+NAME: "Mux Buffer 9 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS202204AX
+NAME: "Mux Buffer 10 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS202206L4
+NAME: "Linecard(slot 1)", DESCR: "100/1000/2500/5000/10GBaseT (RJ45)+V E Series with 48 10GbaseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-12X48U+E , VID: V01  , SN: CAT2032LD6J
+NAME: "Linecard(slot 2)", DESCR: "100/1000/2500/5000/10GBaseT (RJ45)+V E Series with 48 10GbaseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-12X48U+E , VID: V01  , SN: CAT2032LDAQ
+NAME: "Linecard(slot 3)", DESCR: "100/1000/2500/5000/10GBaseT (RJ45)+V E Series with 48 10GbaseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-12X48U+E , VID: V01  , SN: CAT2032LD6U
+NAME: "Linecard(slot 4)", DESCR: "100/1000/2500/5000/10GBaseT (RJ45)+V E Series with 48 10GbaseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-12X48U+E , VID: V01  , SN: CAT2032LD96
+NAME: "Supervisor(slot 5)", DESCR: "Sup 8-E 10GE (SFP+), 1000BaseX (SFP) with 8 SFP+ Ports"
+PID: WS-X45-SUP8-E     , VID: V06  , SN: CAT2032L6UX
+NAME: "TenGigabitEthernet5/1", DESCR: "SFP-10Gbase-SR"
+PID: SFP-10G-SR        , VID: V03  , SN: JUR1932GTDS
+NAME: "Supervisor(slot 6)", DESCR: "Sup 8-E 10GE (SFP+), 1000BaseX (SFP) with 8 SFP+ Ports"
+PID: WS-X45-SUP8-E     , VID: V06  , SN: CAT2033L19E
+NAME: "TenGigabitEthernet6/1", DESCR: "SFP-10Gbase-LRM"
+PID: SFP-10G-LRM       , VID: V03  , SN: FNS20301L62
+NAME: "Linecard(slot 7)", DESCR: "100/1000/2500/5000/10GBaseT (RJ45)+V E Series with 48 10GbaseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-12X48U+E , VID: V01  , SN: CAT2032LD71
+NAME: "Linecard(slot 8)", DESCR: "100/1000/2500/5000/10GBaseT (RJ45)+V E Series with 48 10GbaseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-12X48U+E , VID: V01  , SN: CAT2032LDAR
+NAME: "FanTray 1", DESCR: "FanTray"
+PID: WS-X4582+E        , VID: V04  , SN: FXS2026Q1A1
+NAME: "Power Supply 1", DESCR: "Power Supply ( AC 6000W )"
+PID: PWR-C45-6000ACV   , VID: V03  , SN: ART2026F5RP
+NAME: "Power Supply 2", DESCR: "Power Supply ( AC 6000W )"
+PID: PWR-C45-6000ACV   , VID: V03  , SN: ART2026F5PZ
+
+___________________________________________________________________________
+
+1/9/2024 11:08:26 PM on NYCLOSX107 (10.121.11.107) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FOC2031S0UJ
+
+___________________________________________________________________________
+
+1/9/2024 11:07:51 PM on NYCLOSX145 (10.121.11.145) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3N7
+
+___________________________________________________________________________
+
+1/9/2024 11:08:09 PM on NYCLOSX120 (10.121.11.120) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3M5
+
+___________________________________________________________________________
+
+1/9/2024 11:08:13 PM on NYCLOSX127 (10.121.11.127) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3QF
+
+___________________________________________________________________________
+
+1/9/2024 11:08:11 PM on NYCLOSX125 (10.121.11.125) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3S8
+
+___________________________________________________________________________
+
+1/9/2024 11:08:27 PM on NYCLOSX109 (10.121.11.109) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3MZ
+
+___________________________________________________________________________
+
+1/9/2024 11:08:21 PM on NYCLOSX114 (10.121.11.114) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3Q1
+
+___________________________________________________________________________
+
+1/9/2024 11:08:23 PM on NYCLOSX104 (10.121.11.104) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3S5
+
+___________________________________________________________________________
+
+1/9/2024 11:08:02 PM on NYCLOSX117 (10.121.11.117) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FOC2029V2EM
+
+___________________________________________________________________________
+
+1/9/2024 11:08:14 PM on NYCLOSX128 (10.121.11.128) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3RU
+
+___________________________________________________________________________
+
+1/9/2024 11:08:08 PM on NYCLOSX133 (10.121.11.133) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FOC2030S09U
+
+___________________________________________________________________________
+
+1/9/2024 11:07:57 PM on NYCLOSX144 (10.121.11.144) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3RE
+
+___________________________________________________________________________
+
+1/9/2024 11:08:24 PM on NYCLOSX108 (10.121.11.108) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3PC
+
+___________________________________________________________________________
+
+1/9/2024 11:08:24 PM on NYCLOSX105 (10.121.11.105) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3M2
+
+___________________________________________________________________________
+
+1/9/2024 11:08:26 PM on NYCLOSX106 (10.121.11.106) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FOC2030V07L
+
+___________________________________________________________________________
+
+1/9/2024 11:05:35 PM on LUXLOWC001 (10.190.31.250) by WCNET\kumaras-adm
+
+show inventory
+NAME: "Chassis 1", DESCR: "Cisco C9800-L-C-K9 Chassis"
+PID: C9800-L-C-K9      , VID: 01   , SN: FCL26520029
+NAME: "Chassis 1 Power Supply Module 0", DESCR: "Cisco Catalyst Wireless Controller 12V DC Generic Power Supply"
+PID: PWR-12V           , VID:      , SN:            
+NAME: "Chassis 1 Fan Tray", DESCR: "Cisco C9800-L-C-K9 Fan Tray"
+PID: C9800-L-C-K9-FAN  , VID:      , SN:            
+NAME: "module 0", DESCR: "Cisco C9800-L-C-K9 Modular Interface Processor"
+PID: C9800-L-C-K9      , VID:      , SN:            
+NAME: "SPA subslot 0/0", DESCR: "Front Panel bay-0 4 ports 2.5 Gigabitethernet Module"
+PID: BUILT-IN-4x2_5GE  , VID: V01  , SN: N/A        
+NAME: "SPA subslot 0/1", DESCR: "Front Panel bay-1 2 ports Ten/Gigabitethernet Module"
+PID: BUILT-IN-2x10GE-C , VID: V01  , SN: N/A        
+NAME: "module R0", DESCR: "Cisco C9800-L-C-K9 Route Processor"
+PID: C9800-L-C-K9      , VID: 01   , SN: FCL26520029
+NAME: "module F0", DESCR: "Cisco C9800-L-C-K9 Embedded Services Processor"
+PID: C9800-L-C-K9      , VID:      , SN:            
+NAME: "Chassis 2", DESCR: "Cisco C9800-L-C-K9 Chassis"
+PID: C9800-L-C-K9      , VID: 01   , SN: FCL26520103
+NAME: "Chassis 2 Power Supply Module 0", DESCR: "Cisco Catalyst Wireless Controller 12V DC Generic Power Supply"
+PID: PWR-12V           , VID:      , SN:            
+NAME: "Chassis 2 Fan Tray", DESCR: "Cisco C9800-L-C-K9 Fan Tray"
+PID: C9800-L-C-K9-FAN  , VID:      , SN:
+
+___________________________________________________________________________
+
+1/9/2024 11:08:08 PM on NYCLOSX132 (10.121.11.132) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FOC2029S2ES
+
+___________________________________________________________________________
+
+1/9/2024 11:07:55 PM on NYCLOSX142 (10.121.11.142) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FCW2030A4AG
+
+___________________________________________________________________________
+
+1/9/2024 11:08:15 PM on NYCLOSX130 (10.121.11.130) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FCW2029A0K0
+
+___________________________________________________________________________
+
+1/9/2024 11:08:08 PM on NYCLOSX113 (10.121.11.113) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FCW2030A49R
+
+___________________________________________________________________________
+
+1/9/2024 11:08:26 PM on NYCLOSX102 (10.121.11.102) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3LX
+
+___________________________________________________________________________
+
+1/9/2024 11:08:13 PM on NYCLOSX116 (10.121.11.116) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FCW2029A0KF
+
+___________________________________________________________________________
+
+1/9/2024 11:07:52 PM on NYCLOSX143 (10.121.11.143) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3RB
+
+___________________________________________________________________________
+
+1/9/2024 11:08:25 PM on NYCLOSX103 (10.121.11.103) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3RJ
+
+___________________________________________________________________________
+
+1/9/2024 11:07:56 PM on NYCLOSX137 (10.121.11.137) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PS-L"
+PID: WS-C2960X-24PS-L  , VID: V04  , SN: FCW2030A49G
+
+___________________________________________________________________________
+
+1/9/2024 11:07:55 PM on NYCLOVR005 (10.121.51.16) by WCNET\kumaras-adm
+
+show inventory
+NAME: "VG224 chassis", DESCR: "VG224 chassis"
+PID:                   , VID: 4.0, SN: FHK0925F1M3
+
+___________________________________________________________________________
+
+1/9/2024 11:08:27 PM on NYCLOSX006 (10.121.11.16) by WCNET\kumaras-adm
+
+show inventory
+NAME: "Switch System", DESCR: "Cisco Systems, Inc. WS-C4510R+E 10 slot switch "
+PID: WS-C4510R+E       , VID: V09  , SN: FXS2027Q2ZJ
+NAME: "Clock Module", DESCR: "Clock Module"
+PID: WS-X4K-CLOCK-E    , VID:      , SN: FXS2021073P
+NAME: "Mux Buffer 1 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS202402AX
+NAME: "Mux Buffer 2 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS202405QG
+NAME: "Mux Buffer 3 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS202409XQ
+NAME: "Mux Buffer 4 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS20240A2S
+NAME: "Mux Buffer 7 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS202407CE
+NAME: "Mux Buffer 8 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS202405TN
+NAME: "Mux Buffer 9 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS202405TS
+NAME: "Mux Buffer 10 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS202402AY
+NAME: "Linecard(slot 1)", DESCR: "100/1000/2500/5000/10GBaseT (RJ45)+V E Series with 48 10GbaseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-12X48U+E , VID: V01  , SN: CAT2105L1D8
+NAME: "Linecard(slot 2)", DESCR: "100/1000/2500/5000/10GBaseT (RJ45)+V E Series with 48 10GbaseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-12X48U+E , VID: V01  , SN: CAT2032LDCM
+NAME: "Linecard(slot 3)", DESCR: "100/1000/2500/5000/10GBaseT (RJ45)+V E Series with 48 10GbaseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-12X48U+E , VID: V01  , SN: CAT2032LD6X
+NAME: "Linecard(slot 4)", DESCR: "100/1000/2500/5000/10GBaseT (RJ45)+V E Series with 48 10GbaseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-12X48U+E , VID: V01  , SN: CAT2032LDA4
+NAME: "Supervisor(slot 5)", DESCR: "Sup 8-E 10GE (SFP+), 1000BaseX (SFP) with 8 SFP+ Ports"
+PID: WS-X45-SUP8-E     , VID: V06  , SN: CAT2033L10P
+NAME: "TenGigabitEthernet5/1", DESCR: "SFP-10Gbase-LRM"
+PID: SFP-10G-LRM       , VID: V03  , SN: FNS20301MLC
+NAME: "Supervisor(slot 6)", DESCR: "Sup 8-E 10GE (SFP+), 1000BaseX (SFP) with 8 SFP+ Ports"
+PID: WS-X45-SUP8-E     , VID: V06  , SN: CAT2033L0XB
+NAME: "TenGigabitEthernet6/1", DESCR: "SFP-10Gbase-LRM"
+PID: SFP-10G-LRM       , VID: V03  , SN: FNS20301BRJ
+NAME: "Linecard(slot 7)", DESCR: "100/1000/2500/5000/10GBaseT (RJ45)+V E Series with 48 10GbaseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-12X48U+E , VID: V01  , SN: CAT2024LAEB
+NAME: "Linecard(slot 8)", DESCR: "100/1000/2500/5000/10GBaseT (RJ45)+V E Series with 48 10GbaseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-12X48U+E , VID: V01  , SN: CAT2033L3HH
+NAME: "FanTray 1", DESCR: "FanTray"
+PID: WS-X4582+E        , VID: V04  , SN: FXS2027Q051
+NAME: "Power Supply 1", DESCR: "Power Supply ( AC 6000W )"
+PID: PWR-C45-6000ACV   , VID: V03  , SN: ART2026F5NV
+NAME: "Power Supply 2", DESCR: "Power Supply ( AC 6000W )"
+PID: PWR-C45-6000ACV   , VID: V03  , SN: ART2026F5QA
+
+___________________________________________________________________________
+
+1/9/2024 11:07:51 PM on NYCLOSX123 (10.121.11.123) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V02  , SN: FOC2029Z3QT
+
+___________________________________________________________________________
+
+1/9/2024 11:08:23 PM on LOSLOAX2705 (10.62.11.5) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C3560CX-12TC-S"
+PID: WS-C3560CX-12TC-S , VID: V01  , SN: FOC1922W08G
+
+___________________________________________________________________________
+
+1/9/2024 11:05:58 PM on BERLOSX008 (10.142.11.8) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c93xx Stack", DESCR: "c93xx Stack"
+PID: C9300-48UXM       , VID: V02  , SN: FCW2311L117
+NAME: "Switch 1", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V02  , SN: FCW2311L117
+NAME: "StackPort1/1", DESCR: "StackPort1/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOG2707A3JA
+NAME: "StackPort1/2", DESCR: "StackPort1/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOG2707A5X1
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: ART2228FHJS
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: ART2228FHKH
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FOC23154S93
+NAME: "Twe1/1/1", DESCR: "SFP-10GBase-LR"
+PID: SFP-10G-LR          , VID: V02  , SN: F2020619294     
+NAME: "Twe1/1/2", DESCR: "SFP-10GBase-LR"
+PID: SFP-10G-LR          , VID: V02  , SN: F2020619293     
+NAME: "Switch 2", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V03  , SN: FOC2713Y233
+NAME: "StackPort2/1", DESCR: "StackPort2/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOG2707A5X1
+NAME: "StackPort2/2", DESCR: "StackPort2/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOG2707A3JA
+NAME: "Switch 2 - Power Supply A", DESCR: "Switch 2 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: LIT2712CQEL
+NAME: "Switch 2 - Power Supply B", DESCR: "Switch 2 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: LIT2712CQCZ
+NAME: "Switch 2 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FVH2713053R
+
+___________________________________________________________________________
+
+1/9/2024 11:05:52 PM on CAILOIX002 (10.173.11.192) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C3560CX-12PD-S"
+PID: WS-C3560CX-12PD-S , VID: V04  , SN: FOC2347L1EA
+
+___________________________________________________________________________
+
+1/9/2024 11:05:50 PM on FRALOSX0308 (10.130.11.8) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c93xx Stack", DESCR: "c93xx Stack"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YFP1
+NAME: "Switch 1", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YFP1
+NAME: "StackPort1/1", DESCR: "StackPort1/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2532A3T7
+NAME: "StackPort1/2", DESCR: "StackPort1/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2532A5L8
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2527DXSM
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2527DXTA
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FOC25253RS5
+NAME: "Twe1/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS261004H9     
+NAME: "Switch 2", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YFYJ
+NAME: "StackPort2/1", DESCR: "StackPort2/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2532A5L8
+NAME: "StackPort2/2", DESCR: "StackPort2/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2532A3T7
+NAME: "Switch 2 - Power Supply A", DESCR: "Switch 2 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2527DXT4
+NAME: "Switch 2 - Power Supply B", DESCR: "Switch 2 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2527DXT8
+NAME: "Switch 2 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FOC252510ZH
+NAME: "Twe2/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V01  , SN: FNS22380YZ5
+
+___________________________________________________________________________
+
+1/9/2024 11:05:47 PM on DUBLOAX0809 (10.153.11.9) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C3560CX-8PC-S"
+PID: WS-C3560CX-8PC-S  , VID: V03  , SN: FOC2325Y28H
+NAME: "GigabitEthernet0/11", DESCR: "1000BaseBX10-U SFP"
+PID: GLC-BX-U            , VID: V03  , SN: ACW232517KH
+
+___________________________________________________________________________
+
+1/9/2024 11:05:48 PM on DUBLOFW101-PRI (10.153.252.1) by WCNET\kumaras-adm
+
+show inventory
+Name: "module 0", DESCR: "Firepower 2110 Appliance, 1RU, 12 GE, 4 xSFP, 1 MGMT"
+PID: FPR-2110          , VID: V05     , SN: JMX2644X00U
+
+___________________________________________________________________________
+
+1/9/2024 11:05:47 PM on CAILOAX004 (10.173.11.4) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PSQ-L"
+PID: WS-C2960X-24PSQ-L , VID: V05  , SN: FCW2236A3VD
+
+___________________________________________________________________________
+
+1/9/2024 11:05:53 PM on FRALOWC001 (10.130.31.250) by WCNET\kumaras-adm
+
+show inventory
+NAME: "Chassis 1", DESCR: "Cisco C9800-L-C-K9 Chassis"
+PID: C9800-L-C-K9      , VID: 01   , SN: FCL26160014
+NAME: "Chassis 1 Power Supply Module 0", DESCR: "Cisco Catalyst Wireless Controller 12V DC Generic Power Supply"
+PID: PWR-12V           , VID:      , SN:            
+NAME: "Chassis 1 Fan Tray", DESCR: "Cisco C9800-L-C-K9 Fan Tray"
+PID: C9800-L-C-K9-FAN  , VID:      , SN:            
+NAME: "module 0", DESCR: "Cisco C9800-L-C-K9 Modular Interface Processor"
+PID: C9800-L-C-K9      , VID:      , SN:            
+NAME: "SPA subslot 0/0", DESCR: "Front Panel bay-0 4 ports 2.5 Gigabitethernet Module"
+PID: BUILT-IN-4x2_5GE  , VID: V01  , SN: N/A        
+NAME: "SPA subslot 0/1", DESCR: "Front Panel bay-1 2 ports Ten/Gigabitethernet Module"
+PID: BUILT-IN-2x10GE-C , VID: V01  , SN: N/A        
+NAME: "module R0", DESCR: "Cisco C9800-L-C-K9 Route Processor"
+PID: C9800-L-C-K9      , VID: 01   , SN: FCL26160014
+NAME: "module F0", DESCR: "Cisco C9800-L-C-K9 Embedded Services Processor"
+PID: C9800-L-C-K9      , VID:      , SN:            
+NAME: "Chassis 2", DESCR: "Cisco C9800-L-C-K9 Chassis"
+PID: C9800-L-C-K9      , VID: 01   , SN: FCL26420063
+NAME: "Chassis 2 Power Supply Module 0", DESCR: "Cisco Catalyst Wireless Controller 12V DC Generic Power Supply"
+PID: PWR-12V           , VID:      , SN:            
+NAME: "Chassis 2 Fan Tray", DESCR: "Cisco C9800-L-C-K9 Fan Tray"
+PID: C9800-L-C-K9-FAN  , VID:      , SN:
+
+___________________________________________________________________________
+
+1/9/2024 11:05:47 PM on BERLOWC001.wcnet.whitecase.com (10.142.31.250) by WCNET\kumaras-adm
+
+show inventory
+NAME: "Chassis 1", DESCR: "Cisco C9800-L-F-K9 Chassis"
+PID: C9800-L-F-K9      , VID: 01   , SN: FCL263900ED
+NAME: "Chassis 1 Power Supply Module 0", DESCR: "Cisco Catalyst Wireless Controller 12V DC Generic Power Supply"
+PID: PWR-12V           , VID:      , SN:            
+NAME: "Chassis 1 Fan Tray", DESCR: "Cisco C9800-L-F-K9 Fan Tray"
+PID: C9800-L-F-K9-FAN  , VID:      , SN:            
+NAME: "module 0", DESCR: "Cisco C9800-L-F-K9 Modular Interface Processor"
+PID: C9800-L-F-K9      , VID:      , SN:            
+NAME: "SPA subslot 0/0", DESCR: "Front Panel bay-0 4 ports 2.5 Gigabitethernet Module"
+PID: BUILT-IN-4x2_5GE  , VID: V01  , SN: N/A        
+NAME: "SPA subslot 0/1", DESCR: "Front Panel bay-1 2 ports Ten/Gigabitethernet Module"
+PID: BUILT-IN-2x10GE-F , VID: V01  , SN: N/A        
+NAME: "module R0", DESCR: "Cisco C9800-L-F-K9 Route Processor"
+PID: C9800-L-F-K9      , VID: 01   , SN: FCL263900ED
+NAME: "module F0", DESCR: "Cisco C9800-L-F-K9 Embedded Services Processor"
+PID: C9800-L-F-K9      , VID:      , SN:            
+NAME: "Chassis 2", DESCR: "Cisco C9800-L-F-K9 Chassis"
+PID: C9800-L-F-K9      , VID: 01   , SN: FCL263900UY
+NAME: "Chassis 2 Power Supply Module 0", DESCR: "Cisco Catalyst Wireless Controller 12V DC Generic Power Supply"
+PID: PWR-12V           , VID:      , SN:            
+NAME: "Chassis 2 Fan Tray", DESCR: "Cisco C9800-L-F-K9 Fan Tray"
+PID: C9800-L-F-K9-FAN  , VID:      , SN:
+
+___________________________________________________________________________
+
+1/9/2024 11:05:57 PM on ABULOVR001 (10.172.51.11) by WCNET\kumaras-adm
+
+show inventory
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO: Please use "show license UDI" to get serial number for licensing.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NAME: "Chassis", DESCR: "Cisco ISR4431 Chassis"
+PID: ISR4431/K9        , VID: V07  , SN: FGL2530L359
+NAME: "Power Supply Module 0", DESCR: "250W AC Power Supply for Cisco ISR4430"
+PID: PWR-4430-AC       , VID: V02  , SN: DCC2526H0DE
+NAME: "Power Supply Module 1", DESCR: "250W AC Power Supply for Cisco ISR4430"
+PID: PWR-4430-AC       , VID: V02  , SN: DCC2526H0D9
+NAME: "Fan Tray", DESCR: "Cisco ISR4430 Fan Assembly"
+PID: ACS-4430-FANASSY  , VID:      , SN:            
+NAME: "module 0", DESCR: "Cisco ISR4431 Built-In NIM controller"
+PID: ISR4431/K9        , VID:      , SN:            
+NAME: "NIM subslot 0/1", DESCR: "NIM-2MFT-T1/E1 - T1/E1 Serial Module"
+PID: NIM-2MFT-T1/E1    , VID: V06  , SN: FOC25243QBS
+NAME: "subslot 0/1 db module 0", DESCR: "PVDM4-128 Voice DSP Module"
+PID: PVDM4-128         , VID: V02  , SN: FOC2524025F
+NAME: "PVDM subslot 0/4", DESCR: "PVDM4-64 Voice DSP Module"
+PID: PVDM4-64          , VID: V02  , SN: FOC252402HW
+NAME: "NIM subslot 0/0", DESCR: "Front Panel 4 ports Gigabitethernet Module"
+PID: ISR4431-X-4x1GE   , VID: V01  , SN:            
+NAME: "module R0", DESCR: "Cisco ISR4431 Route Processor"
+PID: ISR4431/K9        , VID: V07  , SN: FOC25290GTK
+NAME: "module F0", DESCR: "Cisco ISR4431 Forwarding Processor"
+PID: ISR4431/K9        , VID:      , SN:
+
+___________________________________________________________________________
+
+1/9/2024 11:05:52 PM on MILLOSX0502 (10.180.11.2) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c93xx Stack", DESCR: "c93xx Stack"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YRD1
+NAME: "Switch 1", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YRD1
+NAME: "StackPort1/1", DESCR: "StackPort1/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2208A1T2
+NAME: "StackPort1/2", DESCR: "StackPort1/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2208A1SS
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2530D96N
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2530D98N
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FOC26081JZM
+NAME: "Twe1/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS25490EG3     
+NAME: "usbflash1", DESCR: "usbflash1-1"
+PID: SSD-240G          , VID: 3.10 , SN: STP2522082V
+NAME: "Switch 2", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V08  , SN: FOC2625Y87H
+NAME: "StackPort2/1", DESCR: "StackPort2/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2208A1SS
+NAME: "StackPort2/2", DESCR: "StackPort2/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2208A1T2
+NAME: "Switch 2 - Power Supply A", DESCR: "Switch 2 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2625D5B5
+NAME: "Switch 2 - Power Supply B", DESCR: "Switch 2 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2552DJNC
+NAME: "Switch 2 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FOC26081JTC
+NAME: "Twe2/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS254906U5
+
+___________________________________________________________________________
+
+1/9/2024 11:06:00 PM on WDCLOSX1107 (10.55.11.7) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c93xx Stack", DESCR: "c93xx Stack"
+PID: C9300-48UXM       , VID: V08  , SN: FJC270810W8
+NAME: "Switch 1", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V08  , SN: FJC27081109
+NAME: "StackPort1/1", DESCR: "StackPort1/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOG2712A2BM
+NAME: "StackPort1/2", DESCR: "StackPort1/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2711GFFQ
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: LIT2711AN7X
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: LIT2711D7QP
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FJZ27111C28
+NAME: "Twe1/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS26230MU7     
+NAME: "Switch 2", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V08  , SN: FJC27102220
+NAME: "StackPort2/1", DESCR: "StackPort2/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2711GFGX
+NAME: "StackPort2/2", DESCR: "StackPort2/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOG2712A2BM
+NAME: "Switch 2 - Power Supply A", DESCR: "Switch 2 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: LIT2711D4V2
+NAME: "Switch 2 - Power Supply B", DESCR: "Switch 2 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: LIT2711D4FZ
+NAME: "Switch 3", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V08  , SN: FJC270810W8
+NAME: "StackPort3/1", DESCR: "StackPort3/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2711GFFQ
+NAME: "StackPort3/2", DESCR: "StackPort3/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2711GFGX
+NAME: "Switch 3 - Power Supply A", DESCR: "Switch 3 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: LIT2711CZT9
+NAME: "Switch 3 - Power Supply B", DESCR: "Switch 3 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: LIT2711D7L5
+NAME: "Switch 3 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FJZ27111FBA
+NAME: "Twe3/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS262702F4
+
+___________________________________________________________________________
+
+1/9/2024 11:05:48 PM on MADLOFW014-SEC (10.169.252.2) by WCNET\kumaras-adm
+
+show inventory
+Name: "module 0", DESCR: "Firepower 2110 Appliance, 1RU, 12 GE, 4 xSFP, 1 MGMT"
+PID: FPR-2110          , VID: V05     , SN: FCZ2704R25S
+
+___________________________________________________________________________
+
+1/9/2024 11:05:46 PM on CAILOSX001 (10.173.11.1) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c93xx Stack", DESCR: "c93xx Stack"
+PID: C9300-48UXM       , VID: V03  , SN: FOC2631YGZC
+NAME: "Switch 1", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V03  , SN: FOC2634Y2F1
+NAME: "StackPort1/1", DESCR: "StackPort1/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2630H6TN
+NAME: "StackPort1/2", DESCR: "StackPort1/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2632G6H4
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: ART2629P2H1
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: ART2629P2C1
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FOC26323UYP
+NAME: "Twe1/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS26350DRU     
+NAME: "Switch 2", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V03  , SN: FOC2631YGZC
+NAME: "StackPort2/1", DESCR: "StackPort2/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2632G6H4
+NAME: "StackPort2/2", DESCR: "StackPort2/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2630H6TN
+NAME: "Switch 2 - Power Supply A", DESCR: "Switch 2 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2631DC5N
+NAME: "Switch 2 - Power Supply B", DESCR: "Switch 2 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2631DC59
+NAME: "Switch 2 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FOC26323TZ2
+NAME: "Twe2/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS26350DRM
+
+___________________________________________________________________________
+
+1/9/2024 11:06:00 PM on SYDLOAX0510 (10.225.11.10) by WCNET\kumaras-adm
+
+show inventory
+NAME: "Switch 1", DESCR: "C9200CX-12P-2X2G"
+PID: C9200CX-12P-2X2G  , VID: V01  , SN: FJC265212S6
+
+___________________________________________________________________________
+
+1/9/2024 11:06:00 PM on DUSLOSX004 (10.143.11.4) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C3560CX-12PD-S"
+PID: WS-C3560CX-12PD-S , VID: V04  , SN: FOC2217T04J
+
+___________________________________________________________________________
+
+1/9/2024 11:06:00 PM on FRALOVR007 (10.130.51.7) by WCNET\kumaras-adm
+
+show inventory
+NAME: "VG204 Chassis", DESCR: "VG204 Chassis"
+PID: VG204             , VID: V01 , SN: FCH1731S04W
+
+___________________________________________________________________________
+
+1/9/2024 11:05:56 PM on LUXLOSX002 (10.183.11.2) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C3560CX-12PD-S"
+PID: WS-C3560CX-12PD-S , VID: V04  , SN: FOC2347L1CL
+
+___________________________________________________________________________
+
+1/9/2024 11:05:47 PM on FRALOAX101 (10.130.11.101) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c38xx Stack", DESCR: "c38xx Stack"
+PID: WS-C3850-48F-L    , VID: V05  , SN: FOC1930X192
+NAME: "Switch 1", DESCR: "WS-C3850-48F-L"
+PID: WS-C3850-48F-L    , VID: V05  , SN: FOC1930X192
+NAME: "StackPort1/1", DESCR: "StackPort1/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC1930A08R
+NAME: "StackPort1/2", DESCR: "StackPort1/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC1930A084
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC    , VID: V01  , SN: DTN1922V0TX
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-1100WAC    , VID: V01  , SN: DTN1922V0TS
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "4x10G Uplink Module"
+PID: C3850-NM-4-10G    , VID: V01  , SN: FOC19312NKK
+NAME: "Te1/1/2", DESCR: "SFP-10GBase-LRM"
+PID: SFP-10G-LRM         , VID: V03  , SN: FNS204606DL     
+NAME: "Switch 2", DESCR: "WS-C3850-48P-L"
+PID: WS-C3850-48P-L    , VID: V02  , SN: FOC1747Y2TT
+NAME: "StackPort2/1", DESCR: "StackPort2/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC1930A08R
+NAME: "StackPort2/2", DESCR: "StackPort2/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC1930A084
+NAME: "Switch 2 - Power Supply A", DESCR: "Switch 2 - Power Supply A"
+PID: PWR-C1-715WAC     , VID: V01  , SN: DCB1745G2H8
+NAME: "Switch 2 - Power Supply B", DESCR: "Switch 2 - Power Supply B"
+PID: PWR-C1-1100WAC    , VID: V01  , SN: LIT20020DQD
+NAME: "Switch 2 FRU Uplink Module 1", DESCR: "4x10G Uplink Module"
+PID: C3850-NM-4-10G    , VID: V01  , SN: FOC18383VCJ
+NAME: "Te2/1/2", DESCR: "SFP-10GBase-LRM"
+PID: SFP-10G-LRM         , VID: V03  , SN: FNS20460961
+
+___________________________________________________________________________
+
+1/9/2024 11:05:56 PM on LUXLOSX001 (10.183.11.1) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V03  , SN: FOC2303T32S
+
+___________________________________________________________________________
+
+1/9/2024 11:05:47 PM on MADLOVR001 (10.169.51.250) by WCNET\kumaras-adm
+
+show inventory
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO: Please use "show license UDI" to get serial number for licensing.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NAME: "Chassis", DESCR: "Cisco ISR4431 Chassis"
+PID: ISR4431/K9        , VID: V07  , SN: FCZ2621R3QR
+NAME: "Power Supply Module 1", DESCR: "250W AC Power Supply for Cisco ISR4430"
+PID: PWR-4430-AC       , VID: V02  , SN: DCC2539H1J1
+NAME: "Fan Tray", DESCR: "Cisco ISR4430 Fan Assembly"
+PID: ACS-4430-FANASSY  , VID:      , SN:            
+NAME: "module 0", DESCR: "Cisco ISR4431 Built-In NIM controller"
+PID: ISR4431/K9        , VID:      , SN:            
+NAME: "NIM subslot 0/1", DESCR: "NIM-1MFT-T1/E1 - T1/E1 Serial Module"
+PID: NIM-1MFT-T1/E1    , VID: V06  , SN: FOC25441U81
+NAME: "subslot 0/1 db module 0", DESCR: "PVDM4-64 Voice DSP Module"
+PID: PVDM4-64          , VID: V02  , SN: FOC25441ZBA
+NAME: "PVDM subslot 0/4", DESCR: "PVDM4-64 Voice DSP Module"
+PID: PVDM4-64          , VID: V02  , SN: FOC26174JK0
+NAME: "NIM subslot 0/0", DESCR: "Front Panel 4 ports Gigabitethernet Module"
+PID: ISR4431-X-4x1GE   , VID: V01  , SN:            
+NAME: "module R0", DESCR: "Cisco ISR4431 Route Processor"
+PID: ISR4431/K9        , VID: V07  , SN: FOC26176E91
+NAME: "module F0", DESCR: "Cisco ISR4431 Forwarding Processor"
+PID: ISR4431/K9        , VID:      , SN:
+
+___________________________________________________________________________
+
+1/9/2024 11:05:47 PM on CAILOAX005 (10.173.11.5) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C3560CX-12PC-S"
+PID: WS-C3560CX-12PC-S , VID: V03  , SN: FOC2320Y3TZ
+
+___________________________________________________________________________
+
+1/9/2024 11:06:00 PM on PARLOAX106 (10.154.11.106) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PSQ-L"
+PID: WS-C2960X-24PSQ-L , VID: V05  , SN: FOC2402T0A5
+
+___________________________________________________________________________
+
+1/9/2024 11:05:46 PM on MADLOIX001 (10.169.11.191) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8TC-L"
+PID: WS-C2960CX-8TC-L  , VID: V04  , SN: FOC2535YKDT
+
+___________________________________________________________________________
+
+1/9/2024 11:05:51 PM on HAMLOSX001 (10.140.11.1) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c93xx Stack", DESCR: "c93xx Stack"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YGCX
+NAME: "Switch 1", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YGCX
+NAME: "StackPort1/1", DESCR: "StackPort1/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2532A2ND
+NAME: "StackPort1/2", DESCR: "StackPort1/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2532A2P0
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: ART2528P669
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: ART2528P5RV
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FOC25243CV7
+NAME: "Twe1/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS261000SN     
+NAME: "Twe1/1/2", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS25250WBU     
+NAME: "Switch 2", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YGBU
+NAME: "StackPort2/1", DESCR: "StackPort2/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2532A2P0
+NAME: "StackPort2/2", DESCR: "StackPort2/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2532A2ND
+NAME: "Switch 2 - Power Supply A", DESCR: "Switch 2 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: ART2528P8B0
+NAME: "Switch 2 - Power Supply B", DESCR: "Switch 2 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: ART2528P5RJ
+
+___________________________________________________________________________
+
+1/9/2024 11:05:53 PM on DRELOWC001 (10.137.31.250) by WCNET\kumaras-adm
+
+show inventory
+NAME: "Chassis 1", DESCR: "Cisco C9800-L-C-K9 Chassis"
+PID: C9800-L-C-K9      , VID: 01   , SN: FCL262601RV
+NAME: "Chassis 1 Power Supply Module 0", DESCR: "Cisco Catalyst Wireless Controller 12V DC Generic Power Supply"
+PID: PWR-12V           , VID:      , SN:            
+NAME: "Chassis 1 Fan Tray", DESCR: "Cisco C9800-L-C-K9 Fan Tray"
+PID: C9800-L-C-K9-FAN  , VID:      , SN:            
+NAME: "module 0", DESCR: "Cisco C9800-L-C-K9 Modular Interface Processor"
+PID: C9800-L-C-K9      , VID:      , SN:            
+NAME: "SPA subslot 0/0", DESCR: "Front Panel bay-0 4 ports 2.5 Gigabitethernet Module"
+PID: BUILT-IN-4x2_5GE  , VID: V01  , SN: N/A        
+NAME: "SPA subslot 0/1", DESCR: "Front Panel bay-1 2 ports Ten/Gigabitethernet Module"
+PID: BUILT-IN-2x10GE-C , VID: V01  , SN: N/A        
+NAME: "module R0", DESCR: "Cisco C9800-L-C-K9 Route Processor"
+PID: C9800-L-C-K9      , VID: 01   , SN: FCL262601RV
+NAME: "module F0", DESCR: "Cisco C9800-L-C-K9 Embedded Services Processor"
+PID: C9800-L-C-K9      , VID:      , SN:
+
+___________________________________________________________________________
+
+1/9/2024 11:05:48 PM on DUBLOAX0810 (10.153.11.10) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C3560CX-12PD-S"
+PID: WS-C3560CX-12PD-S , VID: V04  , SN: FOC2234Y3BU
+
+___________________________________________________________________________
+
+1/9/2024 11:06:00 PM on SINLOAX105 (10.205.11.105) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "C1000-24P-4G-L"
+PID: C1000-24P-4G-L    , VID: V01  , SN: FOC2629YDH8
+
+___________________________________________________________________________
+
+1/9/2024 11:05:53 PM on MILLOSX0609 (10.180.11.9) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c93xx Stack", DESCR: "c93xx Stack"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YRSL
+NAME: "Switch 1", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YRSL
+NAME: "StackPort1/1", DESCR: "StackPort1/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2544G7RE
+NAME: "StackPort1/2", DESCR: "StackPort1/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2544G9A9
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2530D99N
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2530D99B
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FOC26081HWM
+NAME: "Twe1/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS254908VQ     
+NAME: "Switch 2", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V08  , SN: FOC2625Y7WA
+NAME: "StackPort2/1", DESCR: "StackPort2/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2544G9A9
+NAME: "StackPort2/2", DESCR: "StackPort2/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: LCC2544G7RE
+NAME: "Switch 2 - Power Supply A", DESCR: "Switch 2 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2552DJJ7
+NAME: "Switch 2 - Power Supply B", DESCR: "Switch 2 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2625D5B2
+NAME: "Switch 2 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FOC26081JRC
+NAME: "Twe2/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS25490JM9
+
+___________________________________________________________________________
+
+1/9/2024 11:05:53 PM on DUSLOIX002 (10.143.11.192) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8PC-L"
+PID: WS-C2960CX-8PC-L  , VID: V03  , SN: FOC2251Y0KC
+
+___________________________________________________________________________
+
+1/9/2024 11:05:57 PM on LONLOSX102 (10.145.11.2) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c38xx Stack", DESCR: "c38xx Stack"
+PID: WS-C3850-48P-L    , VID: V02  , SN: FOC1747U0KL
+NAME: "Switch 1", DESCR: "WS-C3850-48P-L"
+PID: WS-C3850-48P-L    , VID: V02  , SN: FOC1747U0KL
+NAME: "StackPort1/1", DESCR: "StackPort1/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2316A6F8
+NAME: "StackPort1/2", DESCR: "StackPort1/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2314A17Z
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-715WAC     , VID: V01  , SN: DCB1745G2LE
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-715WAC     , VID: V01  , SN: LIT17320CSN
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "4x10G Uplink Module"
+PID: C3850-NM-4-10G    , VID: V01  , SN: FOC174797EK
+NAME: "Te1/1/1", DESCR: "SFP-10GBase-LRM"
+PID: SFP-10G-LRM         , VID: V03  , SN: AGD1752V0HT     
+NAME: "Te1/1/2", DESCR: "SFP-10GBase-LRM"
+PID: SFP-10G-LRM         , VID: V03  , SN: OPM20092590     
+NAME: "Switch 2", DESCR: "WS-C3850-48P-L"
+PID: WS-C3850-48P-L    , VID: V02  , SN: FOC1747X0JD
+NAME: "StackPort2/1", DESCR: "StackPort2/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2314A17Z
+NAME: "StackPort2/2", DESCR: "StackPort2/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2316A6F8
+NAME: "Switch 2 - Power Supply A", DESCR: "Switch 2 - Power Supply A"
+PID: PWR-C1-715WAC     , VID: V01  , SN: LIT17320CS5
+NAME: "Switch 2 - Power Supply B", DESCR: "Switch 2 - Power Supply B"
+PID: PWR-C1-715WAC     , VID: V01  , SN: DCB1745G2LF
+
+___________________________________________________________________________
+
+1/9/2024 11:05:50 PM on HAMLOMX002 (10.140.11.202) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c93xx Stack", DESCR: "c93xx Stack"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YFYA
+NAME: "Switch 1", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YFYA
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: ART2528P6B7
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: ART2528P6DW
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "2x40G Uplink Module"
+PID: C9300-NM-2Q       , VID: V02  , SN: FOC25103U68
+NAME: "Fo1/1/1", DESCR: "QSFP 40G AOC7M"
+PID: QSFP-H40G-AOC7M     , VID: V03  , SN: DTS2447C046-B   
+NAME: "Fo1/1/2", DESCR: "QSFP 40G AOC7M"
+PID: QSFP-H40G-AOC7M     , VID: V03  , SN: DTS2447C366-A
+
+___________________________________________________________________________
+
+1/9/2024 11:05:56 PM on DOHLOIX002 (10.166.11.192) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8TC-L"
+PID: WS-C2960CX-8TC-L  , VID: V04  , SN: FOC2531L9EC
+
+___________________________________________________________________________
+
+1/9/2024 11:05:56 PM on LONLOAX101 (10.144.11.101) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c92xx Stack", DESCR: "c92xx Stack"
+PID: C9200-48P         , VID: V01  , SN: JAE23341EAE
+NAME: "Switch 1", DESCR: "C9200-48P"
+PID: C9200-48P         , VID: V01  , SN: JAE23341EAE
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C5-1KWAC      , VID: V01  , SN: DCI232110R5
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "4x10G Uplink Module"
+PID: C9200-NM-4X       , VID: V02  , SN: JAE24472L7R
+NAME: "Te1/1/3", DESCR: "SFP-10GBase-SR"
+PID: SFP-10G-SR-S        , VID: V01  , SN: OPM24430JQ0     
+NAME: "Te1/1/4", DESCR: "SFP-10GBase-SR"
+PID: SFP-10G-SR-S        , VID: V01  , SN: OPM24430JM7
+
+___________________________________________________________________________
+
+1/9/2024 11:05:58 PM on ESSLOIX001 (10.136.11.191) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960CX-8TC-L"
+PID: WS-C2960CX-8TC-L  , VID: V04  , SN: FOC2430L4YQ
+
+___________________________________________________________________________
+
+1/9/2024 11:05:57 PM on DUBLOAX0901_TEMP (10.153.11.1) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c38xx Stack", DESCR: "c38xx Stack"
+PID: WS-C3850-48F-S    , VID: V06  , SN: FOC1946U0S5
+NAME: "Switch 1", DESCR: "WS-C3850-48F-S"
+PID: WS-C3850-48F-S    , VID: V06  , SN: FOC1946U0S5
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC    , VID: V01  , SN: LIT1936006S
+
+___________________________________________________________________________
+
+1/9/2024 11:06:00 PM on STOLOSX015 (10.156.11.15) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C3560CX-12PC-S"
+PID: WS-C3560CX-12PC-S , VID: V03  , SN: FOC2313Y134
+
+___________________________________________________________________________
+
+1/9/2024 11:05:53 PM on LONLOAX102 (10.144.11.102) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c92xx Stack", DESCR: "c92xx Stack"
+PID: C9200-48P         , VID: V01  , SN: JAE23520FT0
+NAME: "Switch 1", DESCR: "C9200-48P"
+PID: C9200-48P         , VID: V01  , SN: JAE23520FT0
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C6-1KWAC      , VID: V01  , SN: ART2434F4R5
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "4x10G Uplink Module"
+PID: C9200-NM-4X       , VID: V02  , SN: JAE24472MC5
+NAME: "Te1/1/3", DESCR: "SFP-10GBase-SR"
+PID: SFP-10G-SR-S        , VID: V01  , SN: OPM24430JPS     
+NAME: "Te1/1/4", DESCR: "SFP-10GBase-SR"
+PID: SFP-10G-SR-S        , VID: V01  , SN: OPM24430JPZ
+
+___________________________________________________________________________
+
+1/9/2024 11:06:00 PM on PARLOAX109 (10.154.11.109) by WCNET\kumaras-adm
+
+show inventory
+NAME: "1", DESCR: "WS-C2960X-24PSQ-L"
+PID: WS-C2960X-24PSQ-L , VID: V05  , SN: FOC2307T19H
+
+___________________________________________________________________________
+
+1/9/2024 11:05:56 PM on EM1RECX002 (10.187.6.252) by WCNET\kumaras-adm
+
+show inventory
+NAME: "Chassis",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis"      
+PID: N9K-C9508           ,  VID: V03 ,  SN: FGE2636CLYB          
+NAME: "Slot 1",  DESCR: "48x10/25G + 4x40/100G Ethernet Module" 
+PID: N9K-X97160YC-EX     ,  VID: V01 ,  SN: FOC27076Q6K          
+NAME: "Slot 2",  DESCR: "48x10/25G + 4x40/100G Ethernet Module" 
+PID: N9K-X97160YC-EX     ,  VID: V01 ,  SN: FOC27076Q3C          
+NAME: "Slot 5",  DESCR: "48x10G + 4x40/100G Ethernet Module"    
+PID: N9K-X9788TC-FX      ,  VID: V02 ,  SN: FOC27080LBR          
+NAME: "Slot 6",  DESCR: "48x10G + 4x40/100G Ethernet Module"    
+PID: N9K-X9788TC-FX      ,  VID: V02 ,  SN: FOC27080L8U          
+NAME: "Slot 7",  DESCR: "48x10G + 4x40/100G Ethernet Module"    
+PID: N9K-X9788TC-FX      ,  VID: V02 ,  SN: FOC27080LB5          
+NAME: "Slot 21",  DESCR: "8 Slot Fan Power Module"               
+PID: N9K-C9508-FAN-PWR   ,  VID: V02 ,  SN: FOC2608263M          
+NAME: "Slot 22",  DESCR: "8-slot Fabric Module"                  
+PID: N9K-C9508-FM-G      ,  VID: V03 ,  SN: FOC27020A4K          
+NAME: "Slot 23",  DESCR: "8-slot Fabric Module"                  
+PID: N9K-C9508-FM-G      ,  VID: V03 ,  SN: FOC27020A1B          
+NAME: "Slot 24",  DESCR: "8-slot Fabric Module"                  
+PID: N9K-C9508-FM-G      ,  VID: V03 ,  SN: FOC270209VT          
+NAME: "Slot 25",  DESCR: "8 Slot Fan Power Module"               
+PID: N9K-C9508-FAN-PWR   ,  VID: V02 ,  SN: FOC26082654          
+NAME: "Slot 26",  DESCR: "8-slot Fabric Module"                  
+PID: N9K-C9508-FM-G      ,  VID: V03 ,  SN: FOC270209V1          
+NAME: "Slot 27",  DESCR: "Supervisor Module"                     
+PID: N9K-SUP-A+          ,  VID: V02 ,  SN: FOC26090Z9J          
+NAME: "Slot 28",  DESCR: "Supervisor Module"                     
+PID: N9K-SUP-A+          ,  VID: V02 ,  SN: FOC26090Z4P          
+NAME: "Slot 29",  DESCR: "System Controller"                     
+PID: N9K-SC-A            ,  VID: V02 ,  SN: FOC26488FM0          
+NAME: "Slot 30",  DESCR: "System Controller"                     
+PID: N9K-SC-A            ,  VID: V02 ,  SN: FOC26488G8D          
+NAME: "Power Supply 1",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V00 ,  SN: DTM265104VN          
+NAME: "Power Supply 2",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V00 ,  SN: DTM265105GB          
+NAME: "Power Supply 3",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V00 ,  SN: DTM265105HE          
+NAME: "Power Supply 4",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V00 ,  SN: DTM265104RV          
+NAME: "Power Supply 5",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V00 ,  SN: DTM265105GJ          
+NAME: "Power Supply 6",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V00 ,  SN: DTM265104B1          
+NAME: "Power Supply 7",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V00 ,  SN: DTM265105GY          
+NAME: "Power Supply 8",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V00 ,  SN: DTM265105NZ          
+NAME: "Fan 1",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Fan Module"
+PID: N9K-C9508-FAN2      ,  VID: V00 ,  SN: FGE26295ZGX          
+NAME: "Fan 2",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Fan Module"
+PID: N9K-C9508-FAN2      ,  VID: V00 ,  SN: FGE26284JD1          
+NAME: "Fan 3",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Fan Module"
+PID: N9K-C9508-FAN2      ,  VID: V00 ,  SN: FGE26284JBP
+
+___________________________________________________________________________
+
+1/9/2024 11:05:44 PM on FRALOSX0403 (10.130.11.3) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c93xx Stack", DESCR: "c93xx Stack"
+PID: C9300-48UXM       , VID: V08  , SN: FOC2617Z5BM
+NAME: "Switch 1", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V08  , SN: FOC2617Z5BM
+NAME: "StackPort1/1", DESCR: "StackPort1/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2615A308
+NAME: "StackPort1/2", DESCR: "StackPort1/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2615A2XF
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2532DAW2
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2532DAW4
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FOC252511FU
+NAME: "Twe1/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS261003LM     
+NAME: "usbflash1", DESCR: "usbflash1-1"
+PID: SSD-240G          , VID: 3.10 , SN: STP261601M7
+NAME: "Switch 2", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V08  , SN: FOC2617Z398
+NAME: "StackPort2/1", DESCR: "StackPort2/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2615A2XF
+NAME: "StackPort2/2", DESCR: "StackPort2/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2453A1GV
+NAME: "Switch 2 - Power Supply A", DESCR: "Switch 2 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2532DADD
+NAME: "Switch 2 - Power Supply B", DESCR: "Switch 2 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2532DADE
+NAME: "Switch 2 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FOC25253REM
+NAME: "Twe2/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS261001PL     
+NAME: "Switch 3", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V08  , SN: FOC2617Z40B
+NAME: "StackPort3/1", DESCR: "StackPort3/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2453A1GV
+NAME: "StackPort3/2", DESCR: "StackPort3/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: MOC2615A308
+NAME: "Switch 3 - Power Supply A", DESCR: "Switch 3 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2532DADC
+NAME: "Switch 3 - Power Supply B", DESCR: "Switch 3 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2532DADB
+
+___________________________________________________________________________
+
+1/9/2024 11:05:56 PM on HAMLOSX002 (10.140.11.2) by WCNET\kumaras-adm
+
+show inventory
+NAME: "c93xx Stack", DESCR: "c93xx Stack"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YGBK
+NAME: "Switch 1", DESCR: "C9300-48UXM"
+PID: C9300-48UXM       , VID: V05  , SN: FOC2542YGBK
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2527DYFT
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-1100WAC-P  , VID: V01  , SN: DCC2527DYGQ
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "2x25G Uplink Module"
+PID: C9300-NM-2Y       , VID: V01  , SN: FOC25243CAM
+NAME: "Twe1/1/1", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS252607LB     
+NAME: "Twe1/1/2", DESCR: "SFP-10/25GBase-CSR"
+PID: SFP-10/25G-CSR-S    , VID: V03  , SN: FNS252607MH
+
+___________________________________________________________________________
+
+1/9/2024 11:05:56 PM on JOHLOVR002 (10.168.51.252) by WCNET\kumaras-adm
+
+show inventory
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO: Please use "show license UDI" to get serial number for licensing.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NAME: "Chassis", DESCR: "Cisco ISR4431 Chassis"
+PID: ISR4431/K9        , VID: V07  , SN: FCZ2651R09A
+NAME: "Power Supply Module 0", DESCR: "250W AC Power Supply for Cisco ISR4430"
+PID: PWR-4430-AC       , VID: V02  , SN: DCC2642H0WT
+NAME: "Power Supply Module 1", DESCR: "250W AC Power Supply for Cisco ISR4430"
+PID: PWR-4430-AC       , VID: V02  , SN: DCC2642H0WL
+NAME: "Fan Tray", DESCR: "Cisco ISR4430 Fan Assembly"
+PID: ACS-4430-FANASSY  , VID:      , SN:            
+NAME: "module 0", DESCR: "Cisco ISR4431 Built-In NIM controller"
+PID: ISR4431/K9        , VID:      , SN:            
+NAME: "PVDM subslot 0/4", DESCR: "PVDM4-64 Voice DSP Module"
+PID: PVDM4-64          , VID: V02  , SN: FOC26174JDS
+NAME: "NIM subslot 0/0", DESCR: "Front Panel 4 ports Gigabitethernet Module"
+PID: ISR4431-X-4x1GE   , VID: V01  , SN:            
+NAME: "module R0", DESCR: "Cisco ISR4431 Route Processor"
+PID: ISR4431/K9        , VID: V07  , SN: FOC26364UXR
+NAME: "module F0", DESCR: "Cisco ISR4431 Forwarding Processor"
+PID: ISR4431/K9        , VID:      , SN:
+
+___________________________________________________________________________

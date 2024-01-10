@@ -1,0 +1,50 @@
+---
+- hosts: localhost
+  gather_facts: no
+ 
+  tasks:
+    - name: ls
+      shell: |
+        ls ../files/solarwinds-extract/rawextract/
+      register: lsoutput
+    
+    - name: debug
+      debug:
+        var: lsoutput 
+
+    - name: Parse SolarWinds Data
+      parse_solarwinds_data:
+        source: "../files/solarwinds-extract/rawextract/houston.txt"
+        destination: "../files/solarwinds-extract/jsonfiles/houston.json"
+      #delegate_to: localhost
+      register: output
+#      loop: "{{ site_files }}"
+
+    - name: Debug output
+      debug:
+        var: output
+
+
+    - name: Execute bulk JSON to CSV conversion module
+      bulk_json_to_csv_module:
+        source_dir: "../files/solarwinds-extract/jsonfiles/"
+        destination_dir: "../files/solarwinds-extract/csv/"
+    
+
+    - name: Find CSV files in directory
+      ansible.builtin.find:
+        paths: "../files/solarwinds-extract/csv"
+        patterns: "*.csv"
+      register: csv_files
+
+    # - name: Sending email with CSV Report
+    #   community.general.mail:
+    #     host: em1smtp.whitecase.com
+    #     port: 25
+    #     from: ansible@whitecase.com
+    #     to: ashok.kumar@whitecase.com
+    #     subject: "CSV Report for Solarwinds Extract"
+    #     body: "The Site Report is attached."
+    #     attach: "{{ item.path }}"
+    #   loop: "{{ csv_files.files }}"
+
