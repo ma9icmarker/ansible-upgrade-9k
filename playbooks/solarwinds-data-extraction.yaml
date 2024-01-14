@@ -14,11 +14,41 @@
 
     - name: Parse SolarWinds Data
       parse_solarwinds_data:
-        source: "../files/solarwinds-extract/rawextract/houston.txt"
-        destination: "../files/solarwinds-extract/jsonfiles/houston.json"
+        source: "../files/solarwinds-extract/rawextract/solarwinds-raw-extract.txt"
+        destination: "../files/solarwinds-extract/jsonfiles/solarwinds-parsed.json"
       #delegate_to: localhost
       register: output
 #      loop: "{{ site_files }}"
+
+    - name: Generate expected devices file from JSON
+      generate_expected_devices:
+        json_file: '../files/solarwinds-extract/jsonfiles/solarwinds-parsed.json'
+        output_file: '../files/solarwinds-extract/jsonfiles/expected_devices.txt'
+      register: generation_result
+
+    - name: Print hostnames
+      debug:
+        var: generation_result.hostnames
+
+
+    - name: Extract hostnames from JSON and check for missing devices
+      extract_hostname_from_json:
+        json_file: '../files/solarwinds-extract/jsonfiles/solarwinds-parsed.json'
+        expected_devices_file: '../files/solarwinds-extract/jsonfiles/expected_devices.txt'
+      register: result
+
+    - name: Print missing devices
+      debug:
+        var: result.missing_devices
+
+    - name: cat
+      shell: |
+        cat ../files/solarwinds-extract/jsonfiles/expected_devices.txt
+      register: catoutput
+    
+    - name: debug
+      debug:
+        var: catoutput 
 
     - name: Debug output
       debug:
@@ -29,13 +59,22 @@
       bulk_json_to_csv_module:
         source_dir: "../files/solarwinds-extract/jsonfiles/"
         destination_dir: "../files/solarwinds-extract/csv/"
-    
+        amalgamated_file_name: "complete-inventory.csv"    
 
     - name: Find CSV files in directory
       ansible.builtin.find:
         paths: "../files/solarwinds-extract/csv"
         patterns: "*.csv"
       register: csv_files
+
+    - name: Count number of devices in JSON
+      count_devices_in_parsed_json:
+        json_file: "../files/solarwinds-extract/jsonfiles/solarwinds-parsed.json"
+      register: device_count
+
+    - name: Display device count
+      debug:
+        msg: "Total number of devices processed: {{ device_count.device_count }}"
 
     # - name: Sending email with CSV Report
     #   community.general.mail:

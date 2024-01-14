@@ -1,0 +1,105 @@
+Hostname,Datetime,IP,Name,Description,PID,VID,SN
+whcase-seoul-9101375,1/9/2024 11:06:05 PM,10.202.251.6,Chassis,Cisco ISR4431 Chassis,ISR4431/K9,V01,FGL1940104C
+whcase-seoul-9101375,1/9/2024 11:06:05 PM,10.202.251.6,Power Supply Module 1,250W AC Power Supply for Cisco ISR4430,PWR-4430-AC,V01,LIT19330AKK
+whcase-seoul-9101375,1/9/2024 11:06:05 PM,10.202.251.6,Fan Tray,Cisco ISR4430 Fan Assembly,ACS-4430-FANASSY,,
+whcase-seoul-9101375,1/9/2024 11:06:05 PM,10.202.251.6,module 0,Cisco ISR4431 Built-In NIM controller,ISR4431/K9,,
+whcase-seoul-9101375,1/9/2024 11:06:05 PM,10.202.251.6,NIM subslot 0/0,Front Panel 4 ports Gigabitethernet Module,ISR4431-X-4x1GE,V01,
+whcase-seoul-9101375,1/9/2024 11:06:05 PM,10.202.251.6,module R0,Cisco ISR4431 Route Processor,ISR4431/K9,V01,FOC19371H58
+whcase-seoul-9101375,1/9/2024 11:06:05 PM,10.202.251.6,module F0,Cisco ISR4431 Forwarding Processor,ISR4431/K9,", SN:",
+whcase-berlindc1-11902175_CE1,1/9/2024 11:06:12 PM,10.22.186.12,Chassis,Cisco ISR4451 Chassis,ISR4451-X/K9,V06,FGL20151034
+whcase-berlindc1-11902175_CE1,1/9/2024 11:06:12 PM,10.22.186.12,Power Supply Module 0,"450W AC Power Supply for Cisco ISR4450, ISR4350",PWR-4450-AC,V02,DCA2003X33M
+whcase-berlindc1-11902175_CE1,1/9/2024 11:06:12 PM,10.22.186.12,Power Supply Module 1,"450W AC Power Supply for Cisco ISR4450, ISR4350",PWR-4450-AC,V02,DCA2003X33L
+whcase-berlindc1-11902175_CE1,1/9/2024 11:06:12 PM,10.22.186.12,Fan Tray,"Cisco ISR4450, ISR4350 Fan Assembly",ACS-4450-FANASSY,,
+whcase-berlindc1-11902175_CE1,1/9/2024 11:06:12 PM,10.22.186.12,module 0,Cisco ISR4451 Built-In NIM controller,ISR4451-X/K9,,
+whcase-berlindc1-11902175_CE1,1/9/2024 11:06:12 PM,10.22.186.12,NIM subslot 0/0,Front Panel 4 ports Gigabitethernet Module,ISR4451-X-4x1GE,V01,
+whcase-berlindc1-11902175_CE1,1/9/2024 11:06:12 PM,10.22.186.12,module 1,Cisco ISR4451 Built-In SM controller,ISR4451-X/K9,,
+whcase-berlindc1-11902175_CE1,1/9/2024 11:06:12 PM,10.22.186.12,module 2,Cisco ISR4451 Built-In SM controller,ISR4451-X/K9,,
+whcase-berlindc1-11902175_CE1,1/9/2024 11:06:12 PM,10.22.186.12,module R0,Cisco ISR4451 Route Processor,ISR4451-X/K9,V06,FOC20092S3Q
+whcase-berlindc1-11902175_CE1,1/9/2024 11:06:12 PM,10.22.186.12,module F0,Cisco ISR4451 Forwarding Processor,ISR4451-X/K9,", SN:",
+whcase-flensburg-15690599,1/9/2024 11:06:18 PM,10.138.251.6,CISCO3945-CHASSIS,CISCO3945-CHASSIS,CISCO3945-CHASSIS,V02,FJC1951D01K
+whcase-flensburg-15690599,1/9/2024 11:06:18 PM,10.138.251.6,Cisco Services Performance Engine 150 for Cisco 3900 ISR on Slot 0,Cisco Services Performance Engine 150 for Cisco 3900 ISR,C3900-SPE150/K9,V06,FOC19102A6M
+whcase-flensburg-15690599,1/9/2024 11:06:18 PM,10.138.251.6,C3900 AC Power Supply 1,C3900 AC Power Supply 1,PWR-3900-AC,V05,SNI1924C8SB
+whcase-flensburg-15690599,1/9/2024 11:06:18 PM,10.138.251.6,C3900 AC Power Supply 2,C3900 AC Power Supply 2,PWR-3900-AC,V03,SNI1729C8EL
+whcase-hamburg-11669379_CE2,1/9/2024 11:06:29 PM,10.140.251.22,Chassis,Cisco ISR4431 Chassis,ISR4431/K9,V01,FGL201411HB
+whcase-hamburg-11669379_CE2,1/9/2024 11:06:29 PM,10.140.251.22,Power Supply Module 0,250W AC Power Supply for Cisco ISR4430,PWR-4430-AC,V01,LIT20070J75
+whcase-hamburg-11669379_CE2,1/9/2024 11:06:29 PM,10.140.251.22,Power Supply Module 1,250W AC Power Supply for Cisco ISR4430,PWR-4430-AC,V01,LIT20070J7M
+whcase-hamburg-11669379_CE2,1/9/2024 11:06:29 PM,10.140.251.22,Fan Tray,Cisco ISR4430 Fan Assembly,ACS-4430-FANASSY,,
+whcase-hamburg-11669379_CE2,1/9/2024 11:06:29 PM,10.140.251.22,module 0,Cisco ISR4431 Built-In NIM controller,ISR4431/K9,,
+whcase-hamburg-11669379_CE2,1/9/2024 11:06:29 PM,10.140.251.22,NIM subslot 0/0,Front Panel 4 ports Gigabitethernet Module,ISR4431-X-4x1GE,V01,
+whcase-hamburg-11669379_CE2,1/9/2024 11:06:29 PM,10.140.251.22,module R0,Cisco ISR4431 Route Processor,ISR4431/K9,V01,FOC20102QBD
+whcase-hamburg-11669379_CE2,1/9/2024 11:06:29 PM,10.140.251.22,module F0,Cisco ISR4431 Forwarding Processor,ISR4431/K9,", SN:",
+whcase-hamburg-11669379_CE1,1/9/2024 11:06:26 PM,10.140.251.11,Chassis,Cisco ISR4431 Chassis,ISR4431/K9,V01,FGL201411HC
+whcase-hamburg-11669379_CE1,1/9/2024 11:06:26 PM,10.140.251.11,Power Supply Module 0,250W AC Power Supply for Cisco ISR4430,PWR-4430-AC,V01,LIT20070J93
+whcase-hamburg-11669379_CE1,1/9/2024 11:06:26 PM,10.140.251.11,Power Supply Module 1,250W AC Power Supply for Cisco ISR4430,PWR-4430-AC,V01,LIT20070J6X
+whcase-hamburg-11669379_CE1,1/9/2024 11:06:26 PM,10.140.251.11,Fan Tray,Cisco ISR4430 Fan Assembly,ACS-4430-FANASSY,,
+whcase-hamburg-11669379_CE1,1/9/2024 11:06:26 PM,10.140.251.11,module 0,Cisco ISR4431 Built-In NIM controller,ISR4431/K9,,
+whcase-hamburg-11669379_CE1,1/9/2024 11:06:26 PM,10.140.251.11,NIM subslot 0/0,Front Panel 4 ports Gigabitethernet Module,ISR4431-X-4x1GE,V01,
+whcase-hamburg-11669379_CE1,1/9/2024 11:06:26 PM,10.140.251.11,module R0,Cisco ISR4431 Route Processor,ISR4431/K9,V01,FOC20123E55
+whcase-hamburg-11669379_CE1,1/9/2024 11:06:26 PM,10.140.251.11,module F0,Cisco ISR4431 Forwarding Processor,ISR4431/K9,", SN:",
+whcase-newyork-13580585_CE1,1/9/2024 11:06:35 PM,10.121.251.11,Chassis,Cisco ISR4451 Chassis,ISR4451-X/K9,V06,FJC2003D1KE
+whcase-newyork-13580585_CE1,1/9/2024 11:06:35 PM,10.121.251.11,Power Supply Module 0,"450W AC Power Supply for Cisco ISR4450, ISR4350",PWR-4450-AC,V02,DCA1944X65V
+whcase-newyork-13580585_CE1,1/9/2024 11:06:35 PM,10.121.251.11,Fan Tray,"Cisco ISR4450, ISR4350 Fan Assembly",ACS-4450-FANASSY,,
+whcase-newyork-13580585_CE1,1/9/2024 11:06:35 PM,10.121.251.11,module 0,Cisco ISR4451 Built-In NIM controller,ISR4451-X/K9,,
+whcase-newyork-13580585_CE1,1/9/2024 11:06:35 PM,10.121.251.11,NIM subslot 0/0,Front Panel 4 ports Gigabitethernet Module,ISR4451-X-4x1GE,V01,
+whcase-newyork-13580585_CE1,1/9/2024 11:06:35 PM,10.121.251.11,module 1,Cisco ISR4451 Built-In SM controller,ISR4451-X/K9,,
+whcase-newyork-13580585_CE1,1/9/2024 11:06:35 PM,10.121.251.11,module 2,Cisco ISR4451 Built-In SM controller,ISR4451-X/K9,,
+whcase-newyork-13580585_CE1,1/9/2024 11:06:35 PM,10.121.251.11,module R0,Cisco ISR4451 Route Processor,ISR4451-X/K9,V06,FOC19507W2Q
+whcase-newyork-13580585_CE1,1/9/2024 11:06:35 PM,10.121.251.11,module F0,Cisco ISR4451 Forwarding Processor,ISR4451-X/K9,", SN:",
+whcase-somerset-11599375_CE1,1/9/2024 11:06:45 PM,10.21.78.36,Chassis,Cisco ISR4451 Chassis,ISR4451-X/K9,V06,FJC2019D0N0
+whcase-somerset-11599375_CE1,1/9/2024 11:06:45 PM,10.21.78.36,Power Supply Module 0,"450W AC Power Supply for Cisco ISR4450, ISR4350",PWR-4450-AC,V02,DCA2003X4QC
+whcase-somerset-11599375_CE1,1/9/2024 11:06:45 PM,10.21.78.36,Power Supply Module 1,"450W AC Power Supply for Cisco ISR4450, ISR4350",PWR-4450-AC,V02,DCA2003X4SV
+whcase-somerset-11599375_CE1,1/9/2024 11:06:45 PM,10.21.78.36,Fan Tray,"Cisco ISR4450, ISR4350 Fan Assembly",ACS-4450-FANASSY,,
+whcase-somerset-11599375_CE1,1/9/2024 11:06:45 PM,10.21.78.36,module 0,Cisco ISR4451 Built-In NIM controller,ISR4451-X/K9,,
+whcase-somerset-11599375_CE1,1/9/2024 11:06:45 PM,10.21.78.36,NIM subslot 0/0,Front Panel 4 ports Gigabitethernet Module,ISR4451-X-4x1GE,V01,
+whcase-somerset-11599375_CE1,1/9/2024 11:06:45 PM,10.21.78.36,module 1,Cisco ISR4451 Built-In SM controller,ISR4451-X/K9,,
+whcase-somerset-11599375_CE1,1/9/2024 11:06:45 PM,10.21.78.36,module 2,Cisco ISR4451 Built-In SM controller,ISR4451-X/K9,,
+whcase-somerset-11599375_CE1,1/9/2024 11:06:45 PM,10.21.78.36,module R0,Cisco ISR4451 Route Processor,ISR4451-X/K9,V06,FOC20125H3T
+whcase-somerset-11599375_CE1,1/9/2024 11:06:45 PM,10.21.78.36,module F0,Cisco ISR4451 Forwarding Processor,ISR4451-X/K9,", SN:",
+whcase-kazakhstan-13036599,1/9/2024 11:06:56 PM,10.184.251.6,Chassis,Cisco ISR4431 Chassis,ISR4431/K9,V02,FGL204312AY
+whcase-kazakhstan-13036599,1/9/2024 11:06:56 PM,10.184.251.6,Power Supply Module 0,250W AC Power Supply for Cisco ISR4430,PWR-4430-AC,V01,LIT20372UHH
+whcase-kazakhstan-13036599,1/9/2024 11:06:56 PM,10.184.251.6,Power Supply Module 1,250W AC Power Supply for Cisco ISR4430,PWR-4430-AC,V01,LIT20372UEY
+whcase-kazakhstan-13036599,1/9/2024 11:06:56 PM,10.184.251.6,Fan Tray,Cisco ISR4430 Fan Assembly,ACS-4430-FANASSY,,
+whcase-kazakhstan-13036599,1/9/2024 11:06:56 PM,10.184.251.6,module 0,Cisco ISR4431 Built-In NIM controller,ISR4431/K9,,
+whcase-kazakhstan-13036599,1/9/2024 11:06:56 PM,10.184.251.6,NIM subslot 0/0,Front Panel 4 ports Gigabitethernet Module,ISR4431-X-4x1GE,V01,
+whcase-kazakhstan-13036599,1/9/2024 11:06:56 PM,10.184.251.6,module R0,Cisco ISR4431 Route Processor,ISR4431/K9,V02,FOC20387X1Y
+whcase-kazakhstan-13036599,1/9/2024 11:06:56 PM,10.184.251.6,module F0,Cisco ISR4431 Forwarding Processor,ISR4431/K9,", SN:",
+whcase-somerset-11599375_CE2,1/9/2024 11:06:56 PM,10.21.78.44,Chassis,Cisco ISR4451 Chassis,ISR4451-X/K9,V06,FJC2019D0MZ
+whcase-somerset-11599375_CE2,1/9/2024 11:06:56 PM,10.21.78.44,Power Supply Module 0,"450W AC Power Supply for Cisco ISR4450, ISR4350",PWR-4450-AC,V02,DCA2003X4R3
+whcase-somerset-11599375_CE2,1/9/2024 11:06:56 PM,10.21.78.44,Power Supply Module 1,"450W AC Power Supply for Cisco ISR4450, ISR4350",PWR-4450-AC,V02,DCA2003X1AJ
+whcase-somerset-11599375_CE2,1/9/2024 11:06:56 PM,10.21.78.44,Fan Tray,"Cisco ISR4450, ISR4350 Fan Assembly",ACS-4450-FANASSY,,
+whcase-somerset-11599375_CE2,1/9/2024 11:06:56 PM,10.21.78.44,module 0,Cisco ISR4451 Built-In NIM controller,ISR4451-X/K9,,
+whcase-somerset-11599375_CE2,1/9/2024 11:06:56 PM,10.21.78.44,NIM subslot 0/0,Front Panel 4 ports Gigabitethernet Module,ISR4451-X-4x1GE,V01,
+whcase-somerset-11599375_CE2,1/9/2024 11:06:56 PM,10.21.78.44,module 1,Cisco ISR4451 Built-In SM controller,ISR4451-X/K9,,
+whcase-somerset-11599375_CE2,1/9/2024 11:06:56 PM,10.21.78.44,module 2,Cisco ISR4451 Built-In SM controller,ISR4451-X/K9,,
+whcase-somerset-11599375_CE2,1/9/2024 11:06:56 PM,10.21.78.44,module R0,Cisco ISR4451 Route Processor,ISR4451-X/K9,V06,FOC20125H74
+whcase-somerset-11599375_CE2,1/9/2024 11:06:56 PM,10.21.78.44,module F0,Cisco ISR4451 Forwarding Processor,ISR4451-X/K9,", SN:",
+whcase-singapore1-17111391_CE2,1/9/2024 11:07:22 PM,10.23.247.209,Chassis,Cisco ISR4451 Chassis,ISR4451-X/K9,V06,FGL201610VM
+whcase-singapore1-17111391_CE2,1/9/2024 11:07:22 PM,10.23.247.209,Power Supply Module 0,"450W AC Power Supply for Cisco ISR4450, ISR4350",PWR-4450-AC,V02,DCA2003X4EJ
+whcase-singapore1-17111391_CE2,1/9/2024 11:07:22 PM,10.23.247.209,Power Supply Module 1,"450W AC Power Supply for Cisco ISR4450, ISR4350",PWR-4450-AC,V02,DCA2003X539
+whcase-singapore1-17111391_CE2,1/9/2024 11:07:22 PM,10.23.247.209,Fan Tray,"Cisco ISR4450, ISR4350 Fan Assembly",ACS-4450-FANASSY,,
+whcase-singapore1-17111391_CE2,1/9/2024 11:07:22 PM,10.23.247.209,module 0,Cisco ISR4451 Built-In NIM controller,ISR4451-X/K9,,
+whcase-singapore1-17111391_CE2,1/9/2024 11:07:22 PM,10.23.247.209,NIM subslot 0/0,Front Panel 4 ports Gigabitethernet Module,ISR4451-X-4x1GE,V01,
+whcase-singapore1-17111391_CE2,1/9/2024 11:07:22 PM,10.23.247.209,subslot 0/0 transceiver 2,GE LX,GLC-LH-SMD,002,AVJ202534CH
+whcase-singapore1-17111391_CE2,1/9/2024 11:07:22 PM,10.23.247.209,module 1,Cisco ISR4451 Built-In SM controller,ISR4451-X/K9,,
+whcase-singapore1-17111391_CE2,1/9/2024 11:07:22 PM,10.23.247.209,module 2,Cisco ISR4451 Built-In SM controller,ISR4451-X/K9,,
+whcase-singapore1-17111391_CE2,1/9/2024 11:07:22 PM,10.23.247.209,module R0,Cisco ISR4451 Route Processor,ISR4451-X/K9,V06,FOC20134TW4
+whcase-singapore1-17111391_CE2,1/9/2024 11:07:22 PM,10.23.247.209,module F0,Cisco ISR4451 Forwarding Processor,ISR4451-X/K9,", SN:",
+whcase-singapore1-17111391_CE1,1/9/2024 11:07:21 PM,10.23.247.206,Chassis,Cisco ISR4451 Chassis,ISR4451-X/K9,V06,FGL201610VL
+whcase-singapore1-17111391_CE1,1/9/2024 11:07:21 PM,10.23.247.206,Power Supply Module 0,"450W AC Power Supply for Cisco ISR4450, ISR4350",PWR-4450-AC,V02,DCA2003X53R
+whcase-singapore1-17111391_CE1,1/9/2024 11:07:21 PM,10.23.247.206,Power Supply Module 1,"450W AC Power Supply for Cisco ISR4450, ISR4350",PWR-4450-AC,V02,DCA2003X4DY
+whcase-singapore1-17111391_CE1,1/9/2024 11:07:21 PM,10.23.247.206,Fan Tray,"Cisco ISR4450, ISR4350 Fan Assembly",ACS-4450-FANASSY,,
+whcase-singapore1-17111391_CE1,1/9/2024 11:07:21 PM,10.23.247.206,module 0,Cisco ISR4451 Built-In NIM controller,ISR4451-X/K9,,
+whcase-singapore1-17111391_CE1,1/9/2024 11:07:21 PM,10.23.247.206,NIM subslot 0/0,Front Panel 4 ports Gigabitethernet Module,ISR4451-X-4x1GE,V01,
+whcase-singapore1-17111391_CE1,1/9/2024 11:07:21 PM,10.23.247.206,subslot 0/0 transceiver 2,GE LX,GLC-LH-SMD,01,OPM21100GE5
+whcase-singapore1-17111391_CE1,1/9/2024 11:07:21 PM,10.23.247.206,module 1,Cisco ISR4451 Built-In SM controller,ISR4451-X/K9,,
+whcase-singapore1-17111391_CE1,1/9/2024 11:07:21 PM,10.23.247.206,module 2,Cisco ISR4451 Built-In SM controller,ISR4451-X/K9,,
+whcase-singapore1-17111391_CE1,1/9/2024 11:07:21 PM,10.23.247.206,module R0,Cisco ISR4451 Route Processor,ISR4451-X/K9,V06,FOC20134TZL
+whcase-singapore1-17111391_CE1,1/9/2024 11:07:21 PM,10.23.247.206,module F0,Cisco ISR4451 Forwarding Processor,ISR4451-X/K9,", SN:",
+whcase-tokyo-18072189_CE1,1/9/2024 11:07:22 PM,10.229.251.11,Chassis,Cisco ISR4431 Chassis,ISR4431/K9,V01,FGL202912DT
+whcase-tokyo-18072189_CE1,1/9/2024 11:07:22 PM,10.229.251.11,Power Supply Module 0,250W AC Power Supply for Cisco ISR4430,PWR-4430-AC,V01,LIT202308N9
+whcase-tokyo-18072189_CE1,1/9/2024 11:07:22 PM,10.229.251.11,Power Supply Module 1,250W AC Power Supply for Cisco ISR4430,PWR-4430-AC,V01,LIT202308MB
+whcase-tokyo-18072189_CE1,1/9/2024 11:07:22 PM,10.229.251.11,Fan Tray,Cisco ISR4430 Fan Assembly,ACS-4430-FANASSY,,
+whcase-tokyo-18072189_CE1,1/9/2024 11:07:22 PM,10.229.251.11,module 0,Cisco ISR4431 Built-In NIM controller,ISR4431/K9,,
+whcase-tokyo-18072189_CE1,1/9/2024 11:07:22 PM,10.229.251.11,NIM subslot 0/0,Front Panel 4 ports Gigabitethernet Module,ISR4431-X-4x1GE,V01,JAB092709EL
+whcase-tokyo-18072189_CE1,1/9/2024 11:07:22 PM,10.229.251.11,module R0,Cisco ISR4431 Route Processor,ISR4431/K9,V01,FOC20261LYR
+whcase-tokyo-18072189_CE1,1/9/2024 11:07:22 PM,10.229.251.11,module F0,Cisco ISR4431 Forwarding Processor,ISR4431/K9,", SN:",

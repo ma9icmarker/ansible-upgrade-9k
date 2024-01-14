@@ -1,74 +1,13 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-# Copyright: Contributors to the Ansible project
-# GNU General Public License v3.0+ (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)
-from __future__ import (absolute_import, division, print_function)
-__metaclass__ = type
-
-DOCUMENTATION = r'''
----
-module: parse_solarwinds_data
-
-short_description: Take raw extract from solarwinds and manipulate the data for ops reporting.
-
-# If this is part of a collection, you need to use semantic versioning,
-# i.e. the version is of the form "2.5.0" and not "2.4".
-version_added: "1.0.0"
-
-description: Long description here.
-
-options:
-  username:
-    description: Username required for SSH connection
-    required: true
-    type: str
-  ip_address:
-    description: IP address of appliance to connect to
-    required: true
-    type: str
-  password:
-    description: Password required for connection
-    required: true
-    type: str
-  commands:
-    description: The shell commands to run via SSH
-    required: true
-    type: list
-    elements: str
-  expected_strings:
-    description: Expeceted strings
-    required: true
-    type: list
-    elements: str
-author:
-  - Swapnil AshokKumar Patel (ashok.kumar@whitecase.com)
-'''
-
-EXAMPLES = r'''
-# Execute a command
-- name: Connect to FTD and run show arp using custom module
-  ftd_send_command:
-  username: "{{ ftd.username }}"
-  ip_address: "10.67.252.11"
-  password: "{{ ftd.password }}"
-  commands:
-      - show arp
-  expected_strings:
-      - "statelink"
-'''
-
-RETURN = r''' # '''
-
-
-
 import re
 import json
 from ansible.module_utils.basic import AnsibleModule
 
 def parse_file_content(file_path):
     switch_info_pattern = re.compile(r'(\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2}:\d{2} [AP]M) on (\S+) \(([\d.]+)\)')
-    inventory_pattern = re.compile(r'^NAME: "(.*)", DESCR: "(.*)"\nPID: (.*?), +VID: (.*?)(?:, +SN: (.*))?$', re.MULTILINE)
+    general_inventory_pattern = re.compile(r'^NAME: "(.*)", DESCR: "(.*)"\nPID: (.*?), +VID: (.*?)(?:, +SN: (.*))?$', re.MULTILINE)
+    nexus_pattern = re.compile(r'^NAME: "(.*)", +DESCR: "(.*)"\nPID: (.*?), +VID: (.*?), +SN: (.*)$', re.MULTILINE)
+    firewall_pattern = re.compile(r'^Name: "(.*)", DESCR: "(.*)"\nPID: (.*?), +VID: (.*?), +SN: (.*)$', re.MULTILINE)
+    wlc_5508_pattern = re.compile(r'NAME: "([^"]+)", +DESCR: "([^"]+)"\nPID: ([^,]+), +VID: ([^,]+), +SN: (\S+)', re.MULTILINE)
 
     data = {}
 
@@ -88,7 +27,19 @@ def parse_file_content(file_path):
         next_switch = switch_info_pattern.search(content, inventory_start)
         inventory_end = next_switch.start() if next_switch else len(content)
 
-        for item in inventory_pattern.finditer(content, inventory_start, inventory_end):
+        inventory_content = content[inventory_start:inventory_end]
+
+        # Determine the pattern to use based on the device type
+        if "Nexus" in inventory_content:
+            pattern = nexus_pattern
+        elif "Firepower" in inventory_content:
+            pattern = firewall_pattern
+        elif "AIR-CT5508-K9" in inventory_content:
+            pattern = wlc_5508_pattern
+        else:
+            pattern = general_inventory_pattern
+
+        for item in pattern.finditer(inventory_content):
             name, descr, pid, vid, sn = item.groups()
             switch_data["inventory"].append({
                 "NAME": name.strip(),
